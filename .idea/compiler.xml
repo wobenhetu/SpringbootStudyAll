@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot_multithread" />
         <module name="springboot_eureka" />
         <module name="springboot_feign" />
         <module name="springboot_redis" />

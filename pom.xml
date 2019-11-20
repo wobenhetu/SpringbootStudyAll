@@ -21,6 +21,7 @@
         <module>springboot_mybatis</module>
         <module>springboot_eureka</module>
         <module>springboot_multithread</module>
+        <module>springboot-businessservice</module>
     </modules>
 
 

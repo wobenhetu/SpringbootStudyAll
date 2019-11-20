@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot_multithread" />
-        <module name="springboot_eureka" />
-        <module name="springboot_feign" />
-        <module name="springboot_redis" />
         <module name="springboot_mybatis" />
+        <module name="springboot_feign" />
+        <module name="springboot_eureka" />
+        <module name="springboot-businessservice" />
+        <module name="springboot_multithread" />
+        <module name="springboot_redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-businessservice" options="-parameters" />
       <module name="springboot_eureka" options="-parameters" />
       <module name="springboot_feign" options="-parameters" />
       <module name="springboot_multithread" options="-parameters" />

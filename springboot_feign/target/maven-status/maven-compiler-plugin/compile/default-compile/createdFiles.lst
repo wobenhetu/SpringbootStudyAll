@@ -1,0 +1,4 @@
+com\springboot\feign\feign\TestFeign.class
+com\springboot\feign\FeignApplication.class
+com\springboot\feign\feign\TestFeignFallCallBack.class
+com\springboot\feign\controller\FeignController.class

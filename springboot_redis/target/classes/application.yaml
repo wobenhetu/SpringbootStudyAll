@@ -1,0 +1,19 @@
+server:
+  port: 8091
+spring:
+  redis:
+    jedis:
+      pool:
+        max-idle: 20
+        max-active: 50
+        max-wait: 3000
+        min-idle: 2
+    sentinel:
+      nodes:
+        - 192.168.101.118:26379
+        - 192.168.101.119:26379
+        - 192.168.101.120:26379
+      master: mymaster
+    database: 0
+    timeout: 5000
+

@@ -3,5 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_multithread" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_redis" charset="UTF-8" />
   </component>
 </project>

@@ -19,14 +19,14 @@ eureka:
 
 feign:
   hystrix:
-    enabled: true
+    enabled: true  #Feign包裹的的所有方法都会自带断路器(circuit breaker)
   client:
     config:
       default:
-        connectTimeout: 5000
-        readTimeout: 5000
+        connectTimeout: 7000
+        readTimeout: 7000
         loggerLevel: basic
-    default-to-properties: true  # 如果在代码中定义了@configuration的values，这里如果是true，则会覆盖代码中的值；
+    default-to-properties: false  # 如果在代码中定义了@configuration的values，这里如果是true，则以这里的配置为准；
 
 hystrix:
   command:
@@ -34,4 +34,4 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 30000
+            timeoutInMilliseconds: 30000   #缺省为1000

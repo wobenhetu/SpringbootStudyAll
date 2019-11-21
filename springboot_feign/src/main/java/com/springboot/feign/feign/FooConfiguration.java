@@ -8,8 +8,8 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class FooConfiguration {
 
-    public static final int CONNECT_TIMEOUT_MILLIS = 5000;
-    public static final int READ_TIMEOUT_MILLIS = 5000;
+    public static final int CONNECT_TIMEOUT_MILLIS = 15000;
+    public static final int READ_TIMEOUT_MILLIS = 15000;
 
     @Bean
     public Logger.Level feignLogger() {

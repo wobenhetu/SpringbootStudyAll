@@ -26,7 +26,7 @@ feign:
         connectTimeout: 7000
         readTimeout: 7000
         loggerLevel: basic
-    default-to-properties: false  # 如果在代码中定义了@configuration的values，这里如果是true，则会覆盖代码中的值；
+    default-to-properties: false  # 如果在代码中定义了@configuration的values，这里如果是true，则以这里的配置为准；
 
 hystrix:
   command:
@@ -35,3 +35,10 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 30000   #缺省为1000
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'   #代表开放所有端点

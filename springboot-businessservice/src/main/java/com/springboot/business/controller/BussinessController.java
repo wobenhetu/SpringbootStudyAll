@@ -17,6 +17,12 @@ public class BussinessController {
     @GetMapping("/getinfo")
     public String getBussinessInfo() {
 
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         InetAddress ia = null;
         String returnString = "";
         try {

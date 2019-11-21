@@ -22,6 +22,8 @@
         <module>springboot_eureka</module>
         <module>springboot_multithread</module>
         <module>springboot-businessservice</module>
+        <module>springboot-configserver</module>
+        <module>springcloud-gateway</module>
     </modules>
 
 

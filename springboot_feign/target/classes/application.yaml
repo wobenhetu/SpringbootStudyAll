@@ -7,9 +7,9 @@ spring:
 
 eureka:
   instance:
-    prefer-ip-address: true
+    prefer-ip-address: true   #是否优先使用ip地址来替代host name作为实例的hostName字段值；
     lease-renewal-interval-in-seconds: 5
-    lease-expiration-duration-in-seconds: 10
+    lease-expiration-duration-in-seconds: 10  #指定Eureka client间隔多久需要向Eureka Server发送心跳来告知该实例还存活
   client:
     registry-fetch-interval-seconds: 5
     fetchRegistry: true

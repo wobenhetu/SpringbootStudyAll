@@ -2,10 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f57a0f0-3da2-4bbe-8878-d7319d5f8439" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/springboot-businessservice/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-configserver/src/main/java/com/yss/fregata/server/config/FregataConfigServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-configserver/src/main/java/com/yss/fregata/server/config/config/MultipleGitCustomizerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-configserver/src/main/java/com/yss/fregata/server/config/controller/BussinessController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-configserver/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-configserver/src/main/resources/multicaster.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reference-word/SpringCloud讲解.docx" beforeDir="false" afterPath="$PROJECT_DIR$/reference-word/SpringCloud讲解.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-businessservice/src/main/java/com/springboot/business/controller/BussinessController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/src/main/java/com/springboot/business/controller/BussinessController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/TestFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/TestFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/business-service-1.0-SNAPSHOT-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/business-service-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/classes/com/springboot/business/controller/BussinessController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/classes/com/springboot/business/controller/BussinessController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/springboot-configserver-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/springboot-configserver-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_eureka/target/springboot_eureka-0.0.1-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/springboot_eureka-0.0.1-SNAPSHOT-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_eureka/target/springboot_eureka-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/springboot_eureka-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/springboot_feign-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/springboot_feign-1.0-SNAPSHOT-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/springboot_feign-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/springboot_feign-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multithread/target/springboot_multithread-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multithread/target/springboot_multithread-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_mybatis/target/springboot_mybatis-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_mybatis/target/springboot_mybatis-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/springboot_redis-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/springboot_redis-1.0-SNAPSHOT-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/springboot_redis-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/springboot_redis-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-gateway/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/classes/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/classes/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/springcloud-gateway-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/springcloud-gateway-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/springcloud-hystrix-dashboard-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/springcloud-hystrix-dashboard-1.0-SNAPSHOT-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/springcloud-hystrix-dashboard-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/springcloud-hystrix-dashboard-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,25 +58,39 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/resources/application.yaml">
+        <entry file="file://$PROJECT_DIR$/springcloud-gateway/src/main/resources/bootstrap.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-273">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="262">
+              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-gateway/src/main/resources/bootstrap.yaml">
+        <entry file="file://$PROJECT_DIR$/springboot-businessservice/src/main/resources/bootstrap.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+            <state relative-caret-position="45">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -51,106 +98,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-businessservice/src/main/java/com/springboot/business/controller/BussinessController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="23" column="11" selection-start-line="19" selection-start-column="8" selection-end-line="23" selection-end-column="11" />
+            <state relative-caret-position="218">
+              <caret line="49" column="31" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="e#1247#1248#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot_eureka/src/main/java/com/springboot/eureka/EurekaserverApplication.java">
+        <entry file="file://$PROJECT_DIR$/springboot-configserver/src/main/java/com/yss/fregata/server/config/controller/BussinessController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="251">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-gateway/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-configserver/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-businessservice/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-configserver/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-businessservice/src/main/java/com/springboot/business/BussinessServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="178">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#361#362#0" expanded="true" />
                 <element signature="e#439#440#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-gateway/src/main/java/com/springcloud/gateway/GateWayServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/FeignApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/TestFeign.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/TestFeignFallCallBackFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/controller/FeignController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -195,9 +210,7 @@
         <option value="$PROJECT_DIR$/springcloud-hystrix-dashboard/src/main/java/com/springcloud/hystrixdashboard/AppHystrixDashboard.java" />
         <option value="$PROJECT_DIR$/springcloud-hystrix-dashboard/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/springcloud-hystrix-dashboard/README.md" />
-        <option value="$PROJECT_DIR$/springboot-businessservice/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/FooConfiguration.java" />
-        <option value="$PROJECT_DIR$/springboot-businessservice/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/FeignApplication.java" />
         <option value="$PROJECT_DIR$/springboot_feign/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-hystrix-dashboard/src/main/java/com/springcloud/hystrixdashboard/HystrixDashboardApplication.java" />
@@ -206,9 +219,19 @@
         <option value="$PROJECT_DIR$/springcloud-gateway/src/main/java/com/springcloud/gateway/GateWayServerApplication.java" />
         <option value="$PROJECT_DIR$/springcloud-gateway/src/main/java/com/springcloud/gateway/controller/TestController.java" />
         <option value="$PROJECT_DIR$/springcloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/TestFeign.java" />
+        <option value="$PROJECT_DIR$/springboot-configserver/src/main/java/com/yss/fregata/server/config/FregataConfigServer.java" />
+        <option value="$PROJECT_DIR$/springboot-configserver/src/main/java/com/yss/fregata/server/config/config/MultipleGitCustomizerConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-configserver/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot-configserver/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/springboot-configserver/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-gateway/src/main/resources/bootstrap.yaml" />
         <option value="$PROJECT_DIR$/springboot-businessservice/src/main/java/com/springboot/business/controller/BussinessController.java" />
-        <option value="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/TestFeign.java" />
+        <option value="$PROJECT_DIR$/springboot-configserver/src/main/java/com/yss/fregata/server/config/controller/BussinessController.java" />
+        <option value="$PROJECT_DIR$/springboot-businessservice/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-businessservice/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/springboot-configserver/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/springboot-businessservice/src/main/resources/bootstrap.yaml" />
       </list>
     </option>
   </component>
@@ -231,20 +254,20 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot_eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="business-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot_eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="business-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springcloud-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="springboot_eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springcloud-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="springboot_eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -277,6 +300,11 @@
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="reference-word" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
               <item name="springboot-businessservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -299,15 +327,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-businessservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="business" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
@@ -317,47 +336,21 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-businessservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-businessservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -365,62 +358,52 @@
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-configserver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-configserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-configserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-configserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-configserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-configserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
-              <item name="feign" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-configserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -428,6 +411,12 @@
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-configserver" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud-gateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -442,33 +431,6 @@
               <item name="springcloud-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
@@ -477,13 +439,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -499,7 +454,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/devworkspaces/clouddev/FinchleyRelease/springcloud-config-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cloud3.2.0/gateway/test-service-a" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -512,17 +467,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yss.fregata.server.config.controller" />
+      <recent name="com.yss.fregata.server.config" />
       <recent name="com.springcloud.gateway.controller" />
       <recent name="com.springcloud.gateway" />
       <recent name="com.springboot.business" />
-      <recent name="com.springboot.business.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspaces\springbootdevAll\springbootdev\springboot-configserver\src\main\resources" />
+      <recent name="D:\workspaces\springbootdevAll\springbootdev\springboot-configserver\src\main\java\com\yss\fregata\server\config" />
       <recent name="D:\workspaces\springbootdevAll\springbootdev\springcloud-gateway\src\main\resources" />
       <recent name="D:\workspaces\springbootdevAll\springbootdev\springcloud-hystrix-dashboard" />
       <recent name="D:\workspaces\springbootdevAll\springbootdev\springboot_feign\src\main\java\com\springboot\feign" />
-      <recent name="D:\workspaces\springbootdevAll\springbootdev\reference-word" />
-      <recent name="D:\workspaces\springbootdevAll\springbootdev\springboot_redis\src\main\java\com\springboot\redis" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -537,7 +493,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FeignApplication">
+  <component name="RunManager" selected="Spring Boot.BussinessServiceApplication">
     <configuration name="BussinessServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot-businessservice" />
       <extension name="coverage">
@@ -577,6 +533,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FregataConfigServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-configserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yss.fregata.server.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yss.fregata.server.config.FregataConfigServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GateWayServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloud-gateway" />
       <extension name="coverage">
@@ -590,26 +559,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springcloud-hystrix-dashboard" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springcloud.hystrixdashboard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.hystrixdashboard.HystrixDashboardApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.FeignApplication" />
         <item itemvalue="Spring Boot.BussinessServiceApplication" />
+        <item itemvalue="Spring Boot.FregataConfigServer" />
+        <item itemvalue="Spring Boot.FeignApplication" />
         <item itemvalue="Spring Boot.GateWayServerApplication" />
         <item itemvalue="Spring Boot.EurekaserverApplication" />
-        <item itemvalue="Spring Boot.HystrixDashboardApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -629,7 +585,7 @@
       <workItem from="1574213063358" duration="1411000" />
       <workItem from="1574255988711" duration="5850000" />
       <workItem from="1574299163152" duration="20981000" />
-      <workItem from="1574384897424" duration="4776000" />
+      <workItem from="1574384897424" duration="17865000" />
     </task>
     <task id="LOCAL-00001" summary="增加hystrix的使用">
       <created>1574308476984</created>
@@ -642,13 +598,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43455000" />
+    <option name="totallyTimeSpent" value="56544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="703" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49811321" visible="true" weight="0.22753036" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49811321" visible="true" weight="0.31336033" />
       <window_info id="Structure" order="1" sideWeight="0.5018868" side_tool="true" weight="0.22995952" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -656,7 +612,7 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969034" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28467155" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23175183" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -664,7 +620,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.14416058" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.52372265" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" />
@@ -673,8 +629,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.024291499" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.07449393" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32955465" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Bean Validation" order="7" />
     </layout>
@@ -687,21 +643,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="增加hystrix的使用" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot_mybatis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.9.8/eureka-core-1.9.8.jar!/com/netflix/eureka/registry/InstanceRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-703">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.9.8/eureka-core-1.9.8.jar!/com/netflix/eureka/lease/Lease.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -775,10 +716,6 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-configserver/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-hystrix/10.1.0/feign-hystrix-10.1.0.jar!/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -810,21 +747,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-businessservice/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-businessservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-hystrix-dashboard/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -904,14 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.9.8/eureka-core-1.9.8-sources.jar!/com/netflix/eureka/lease/LeaseManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -947,14 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/TestFeignFallCallBackFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -970,23 +876,11 @@
     <entry file="file://$PROJECT_DIR$/springboot_eureka/src/main/java/com/springboot/eureka/EurekaserverApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#354#355#0" expanded="true" />
             <element signature="e#428#429#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-businessservice/src/main/java/com/springboot/business/BussinessServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1003,27 +897,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-gateway/src/main/resources/bootstrap.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-businessservice/src/main/java/com/springboot/business/controller/BussinessController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="23" column="11" selection-start-line="19" selection-start-column="8" selection-end-line="23" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/FeignApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#679#680#0" expanded="true" />
@@ -1044,22 +921,157 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-configserver/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="105">
+          <caret line="39" selection-start-line="39" selection-end-line="43" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/TestFeign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        <state relative-caret-position="264">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-configserver/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-configserver/src/main/java/com/yss/fregata/server/config/config/MeterRegistryCustomizerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-configserver/src/main/java/com/yss/fregata/server/config/config/MultipleGitCustomizerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-configserver/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-793">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-configserver/src/main/java/com/yss/fregata/server/config/FregataConfigServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-configserver/src/main/java/com/yss/fregata/server/config/controller/BussinessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-businessservice/src/main/java/com/springboot/business/BussinessServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-gateway/src/main/resources/bootstrap.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-businessservice/src/main/java/com/springboot/business/controller/BussinessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1247#1248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-businessservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-configserver/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-businessservice/src/main/resources/bootstrap.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-bus-amqp/2.0.0.RELEASE/spring-cloud-starter-bus-amqp-2.0.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-configserver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">

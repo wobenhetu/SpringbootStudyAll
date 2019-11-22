@@ -1,38 +1,29 @@
 spring:
   application:
-    name: springcloud-gateway
+    name: fregata-server-config
   cloud:
     bus:
+      trace:
+        enabled: true
       id: ${vcap.application.name:${spring.application.name:application}}:${vcap.application.instance_index:${spring.cloud.config.profile:${local.server.port:${server.port:0}}}}:${vcap.application.instance_id:${random.value}}
     config:
-#      uri: http://192.168.101.123:7779/
-      discovery:
-        enabled: true
-        service-id: fregata-server-config
       profile: dev
       label: master
-    gateway:
-      routes:
-        - id: test-service-a
-          # 重点！/info必须使用http进行转发，lb代表从注册中心获取服务
-          uri: lb://test-service-a
-          predicates:
-            # 重点！转发该路径！
-            - Path=/getbussiness/**
-      discovery:
-        locator:
-          enabled: true
-          lower-case-service-id: true    #在eureka中，服务是以大写的形式注册的，可以转化成小写
+      server:
+        bootstrap: true
+        git:
+          uri: http://192.168.102.73:8081/dengfenwu/springcloud-configserver.git
+          searchPaths: fregata-*,spring-boot*
+          force-pull: true
+          clone-on-start: true
+          basedir: /var/opt
+
 
   rabbitmq:
-    host: 192.168.101.123
+    addresses: 192.168.101.123
     port: 5672
     username: yclouddev
     password: yclouddev
-
-server:
-  port: 8888
-
 
 eureka:
   instance:
@@ -44,3 +35,12 @@ eureka:
     fetchRegistry: true
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka/
+
+server:
+  port: 7779
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'   #代表开放所有端点

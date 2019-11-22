@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: test-service-a
+  cloud:
+    bus:
+      trace:
+        enabled: true
+      id: ${vcap.application.name:${spring.application.name:application}}:${vcap.application.instance_index:${spring.cloud.config.profile:${local.server.port:${server.port:0}}}}:${vcap.application.instance_id:${random.value}}
+    config:
+#      uri:  http://192.168.98.109:7779
+      discovery:
+        enabled: true
+        service-id: fregata-server-config
+      profile: dev
+      label: master
+
+  rabbitmq:
+    addresses: 192.168.101.123
+    port: 5672
+    username: yclouddev
+    password: yclouddev
+
+
+server:
+  port: 8094
+
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 10
+  client:
+    registry-fetch-interval-seconds: 5
+    fetchRegistry: true
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'   #代表开放所有端点

@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-@FeignClient(name = "test-service-a",configuration = FooConfiguration.class,fallbackFactory = TestFeignFallCallBackFactory.class)
+@FeignClient(name = "test-service-a",configuration = FooConfiguration.class,
+        fallbackFactory = TestFeignFallCallBackFactory.class)
 @Component
 public interface TestFeign {
 

@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: springcloud-gateway
+  cloud:
+#    bus:
+#      id: ${vcap.application.name:${spring.application.name:application}}:${vcap.application.instance_index:${spring.cloud.config.profile:${local.server.port:${server.port:0}}}}:${vcap.application.instance_id:${random.value}}
+#    config:
+##      uri: http://192.168.101.123:7779/
+#      discovery:
+#        enabled: true
+#        service-id: fregata-server-config
+#      profile: dev
+#      label: master
+    gateway:
+      routes:
+        - id: test-service-a
+          # 重点！/info必须使用http进行转发，lb代表从注册中心获取服务
+          uri: lb://test-service-a
+          predicates:
+            # 重点！转发该路径！
+            - Path=/
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true    #在eureka中，服务是以大写的形式注册的，可以转化成小写
+
+#  rabbitmq:
+#    host: 192.168.101.138
+#    port: 5672
+#    username: yclouddev
+#    password: yclouddev
+
+server:
+  port: 8888
+
+
+eureka:
+  instance:
+    prefer-ip-address: true   #是否优先使用ip地址来替代host name作为实例的hostName字段值；
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 10  #指定Eureka client间隔多久需要向Eureka Server发送心跳来告知该实例还存活
+  client:
+    registry-fetch-interval-seconds: 5
+    fetchRegistry: true
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/

@@ -7,11 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-configserver" />
+        <module name="springboot-aop" />
         <module name="springboot_mybatis" />
+        <module name="springboot-rabbitmq" />
         <module name="springcloud-gateway" />
         <module name="springboot_feign" />
         <module name="springboot_eureka" />
         <module name="springboot-businessservice" />
+        <module name="springboot-elk" />
         <module name="springboot_multithread" />
         <module name="springcloud-hystrix-dashboard" />
         <module name="springboot_redis" />
@@ -20,8 +23,11 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-aop" options="-parameters" />
       <module name="springboot-businessservice" options="-parameters" />
       <module name="springboot-configserver" options="-parameters" />
+      <module name="springboot-elk" options="-parameters" />
+      <module name="springboot-rabbitmq" options="-parameters" />
       <module name="springboot_eureka" options="-parameters" />
       <module name="springboot_feign" options="-parameters" />
       <module name="springboot_multithread" options="-parameters" />

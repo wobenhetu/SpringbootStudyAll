@@ -1,2 +1,7 @@
 com\springboot\business\controller\BussinessController.class
+com\springboot\business\config\SockJsAutoConfig.class
+com\springboot\business\controller\SockJsController.class
+com\springboot\business\entity\BulletMessageDTO.class
+com\springboot\business\config\CommonWebsocketConfig.class
+com\springboot\business\controller\CommonWebsocketController.class
 com\springboot\business\BussinessServiceApplication.class

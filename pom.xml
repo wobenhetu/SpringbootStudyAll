@@ -4,20 +4,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <!--引的官方的paren-->
-    <parent>
+    <!--引的官方的parent-->
+   <!-- <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.5.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
+        <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;
+    </parent>-->
 
-    <!--引的maven私服的pom-->
-   <!-- <parent>
+    <!--引的maven私服的2.0 pom-->
+    <parent>
         <groupId>com.yss.fregata</groupId>
         <artifactId>fregata-parent</artifactId>
         <version>2.0.0</version>
-    </parent>-->
+    </parent>
 
     <groupId>com.springboot.study</groupId>
     <artifactId>springboot</artifactId>
@@ -41,7 +41,15 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <spring-boot-admin.version>2.0.4</spring-boot-admin.version>
+        <spring-boot.version>2.0.5.RELEASE</spring-boot.version>
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
+        <build-plugin.gpg.version>1.6</build-plugin.gpg.version>
+        <build-plugin.asciidoctor.version>1.5.5</build-plugin.asciidoctor.version>
+        <build-plugin.exec.version>1.6.0</build-plugin.exec.version>
+        <build-plugin.git-commit-id.version>2.2.2</build-plugin.git-commit-id.version>
+        <argLine>-Dfile.encoding=UTF-8</argLine>
+
     </properties>
 
 

@@ -12,13 +12,13 @@ spring:
       profile: dev
       label: master
     gateway:
-      routes:
-        - id: test-service-a
-          # 重点！/info必须使用http进行转发，lb代表从注册中心获取服务
-          uri: lb://test-service-a
-          predicates:
-            # 重点！转发该路径！
-            - Path=/getbussiness/**
+#      routes:
+#        - id: test-service-a
+#          # 重点！/info必须使用http进行转发，lb代表从注册中心获取服务
+#          uri: lb://test-service-a
+#          predicates:
+#            # 重点！转发该路径！
+#            - Path=/getbussiness/**
       discovery:
         locator:
           enabled: true

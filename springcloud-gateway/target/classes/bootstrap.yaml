@@ -12,23 +12,23 @@ spring:
       profile: dev
       label: master
     gateway:
-      routes:
-        - id: test-service-a
-          # 重点！/info必须使用http进行转发，lb代表从注册中心获取服务
-          uri: lb://test-service-a
-          predicates:
-            # 重点！转发该路径！
-            - Path=/getbussiness/**
+#      routes:
+#        - id: test-service-a
+#          # 重点！/info必须使用http进行转发，lb代表从注册中心获取服务
+#          uri: lb://test-service-a
+#          predicates:
+#            # 重点！转发该路径！
+#            - Path=/getbussiness/**
       discovery:
         locator:
           enabled: true
           lower-case-service-id: true    #在eureka中，服务是以大写的形式注册的，可以转化成小写
 
-#  rabbitmq:
-#    host: 192.168.101.138
-#    port: 5672
-#    username: yclouddev
-#    password: yclouddev
+  rabbitmq:
+    host: 192.168.101.123
+    port: 5672
+    username: yclouddev
+    password: yclouddev
 
 server:
   port: 8888

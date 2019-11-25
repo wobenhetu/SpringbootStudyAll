@@ -32,7 +32,12 @@ spring:
 
 server:
   port: 8888
-
+#  ssl:
+#    key-store: classpath:keystore/gateway.keystore
+#    key-store-password: 123456
+#    key-store-type: JKS
+#    key-alias: gateway
+#    enabled: true
 
 eureka:
   instance:

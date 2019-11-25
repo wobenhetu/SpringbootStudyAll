@@ -33,6 +33,9 @@
         <module>springboot-configserver</module>
         <module>springcloud-gateway</module>
         <module>springcloud-hystrix-dashboard</module>
+        <module>springboot-aop</module>
+        <module>springboot-elk</module>
+        <module>springboot-rabbitmq</module>
     </modules>
 
 

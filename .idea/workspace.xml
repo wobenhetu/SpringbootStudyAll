@@ -2,36 +2,227 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f57a0f0-3da2-4bbe-8878-d7319d5f8439" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/RabbitMQApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/DirectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/FanoutConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/HeadersConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/TopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/AnnotationConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/DirectConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/FanoutConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/HeadersConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/TopicConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/entity/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-rabbitmq/src/test/java/com/springboot/rabbitmq/RabbitMqProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reference-word/SpringCloud讲解.docx" beforeDir="false" afterPath="$PROJECT_DIR$/reference-word/SpringCloud讲解.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-aop/target/springboot-aop-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-aop/target/springboot-aop-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/BussinessServiceApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/BussinessServiceApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/class-use/BussinessServiceApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/class-use/BussinessServiceApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/config/CommonWebsocketConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/config/CommonWebsocketConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/config/SockJsAutoConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/config/SockJsAutoConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/config/class-use/CommonWebsocketConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/config/class-use/CommonWebsocketConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/config/class-use/SockJsAutoConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/config/class-use/SockJsAutoConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/config/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/config/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/config/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/config/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/config/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/config/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/config/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/config/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/BussinessController.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/BussinessController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/CommonWebsocketController.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/CommonWebsocketController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/SockJsController.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/SockJsController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/class-use/BussinessController.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/class-use/BussinessController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/class-use/CommonWebsocketController.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/class-use/CommonWebsocketController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/class-use/SockJsController.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/class-use/SockJsController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/controller/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/entity/BulletMessageDTO.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/entity/BulletMessageDTO.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/entity/class-use/BulletMessageDTO.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/entity/class-use/BulletMessageDTO.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/entity/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/entity/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/entity/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/entity/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/entity/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/entity/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/entity/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/entity/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/com/springboot/business/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/business-service-1.0-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/business-service-1.0-SNAPSHOT-javadoc.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/business-service-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/business-service-1.0-SNAPSHOT-sources.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/business-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/business-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/classes/com/springboot/business/entity/AuthToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/classes/com/springboot/business/entity/Authentication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/classes/com/springboot/business/entity/Users.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-businessservice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-businessservice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/FregataConfigServer.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/FregataConfigServer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/class-use/FregataConfigServer.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/class-use/FregataConfigServer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/config/MultipleGitCustomizerConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/config/MultipleGitCustomizerConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/config/class-use/MultipleGitCustomizerConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/config/class-use/MultipleGitCustomizerConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/config/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/config/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/config/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/config/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/config/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/config/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/config/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/config/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/controller/BussinessController.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/controller/BussinessController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/controller/class-use/BussinessController.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/controller/class-use/BussinessController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/controller/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/controller/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/controller/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/controller/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/controller/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/controller/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/controller/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/controller/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/com/yss/fregata/server/config/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-configserver/target/springboot-configserver-1.0-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/springboot-configserver-1.0-SNAPSHOT-javadoc.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-configserver/target/springboot-configserver-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/springboot-configserver-1.0-SNAPSHOT-sources.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-configserver/target/springboot-configserver-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-configserver/target/springboot-configserver-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-elk/target/springboot-elk-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-elk/target/springboot-elk-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-rabbitmq/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-rabbitmq/target/springboot-rabbitmq-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_eureka/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_eureka/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_eureka/target/apidocs/com/springboot/eureka/EurekaserverApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/apidocs/com/springboot/eureka/EurekaserverApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_eureka/target/apidocs/com/springboot/eureka/class-use/EurekaserverApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/apidocs/com/springboot/eureka/class-use/EurekaserverApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_eureka/target/apidocs/com/springboot/eureka/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/apidocs/com/springboot/eureka/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_eureka/target/apidocs/com/springboot/eureka/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/apidocs/com/springboot/eureka/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_eureka/target/apidocs/com/springboot/eureka/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/apidocs/com/springboot/eureka/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_eureka/target/apidocs/com/springboot/eureka/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/apidocs/com/springboot/eureka/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_eureka/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_eureka/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_eureka/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_eureka/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_eureka/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_eureka/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_eureka/target/springboot_eureka-0.0.1-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/springboot_eureka-0.0.1-SNAPSHOT-javadoc.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_eureka/target/springboot_eureka-0.0.1-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/springboot_eureka-0.0.1-SNAPSHOT-sources.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_eureka/target/springboot_eureka-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_eureka/target/springboot_eureka-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_feign/target/classes/META-INF/springboot_feign.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_feign/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_feign/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/FeignApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/FeignApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/class-use/FeignApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/class-use/FeignApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/FeignController.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/FeignController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/class-use/FeignController.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/class-use/FeignController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/FeignBasicAuthRequestInterceptor.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/FeignBasicAuthRequestInterceptor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/FooConfiguration.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/FooConfiguration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/TestFeign.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/TestFeign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/TestFeignFallCallBack.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/TestFeignFallCallBack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/TestFeignFallCallBackFactory.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/TestFeignFallCallBackFactory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/FeignBasicAuthRequestInterceptor.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/FeignBasicAuthRequestInterceptor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/FooConfiguration.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/FooConfiguration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/TestFeign.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/TestFeign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/TestFeignFallCallBack.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/TestFeignFallCallBack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/TestFeignFallCallBackFactory.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/TestFeignFallCallBackFactory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/springboot_feign-1.0-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/springboot_feign-1.0-SNAPSHOT-javadoc.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_feign/target/springboot_feign-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/springboot_feign-1.0-SNAPSHOT-sources.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_feign/target/springboot_feign-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/springboot_feign-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_multithread/target/springboot_multithread-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multithread/target/springboot_multithread-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_mybatis/target/springboot_mybatis-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_mybatis/target/springboot_mybatis-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/SpringbootRedisApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/SpringbootRedisApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/class-use/SpringbootRedisApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/class-use/SpringbootRedisApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/controller/RedisUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/controller/RedisUtils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/controller/class-use/RedisUtils.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/controller/class-use/RedisUtils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/controller/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/controller/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/controller/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/controller/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/controller/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/controller/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/controller/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/controller/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/com/springboot/redis/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/springboot_redis-1.0-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/springboot_redis-1.0-SNAPSHOT-javadoc.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_redis/target/springboot_redis-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/springboot_redis-1.0-SNAPSHOT-sources.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_redis/target/springboot_redis-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/springboot_redis-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/GateWayServerApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/GateWayServerApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/class-use/GateWayServerApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/class-use/GateWayServerApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/controller/TestController.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/controller/TestController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/controller/class-use/TestController.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/controller/class-use/TestController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/controller/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/controller/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/controller/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/controller/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/controller/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/controller/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/controller/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/controller/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/com/springcloud/gateway/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/springcloud-gateway-1.0-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/springcloud-gateway-1.0-SNAPSHOT-javadoc.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/springcloud-gateway-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/springcloud-gateway-1.0-SNAPSHOT-sources.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-gateway/target/springcloud-gateway-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/target/springcloud-gateway-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/classes/com/springcloud/hystrixdashboard/HystrixDashboardApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/classes/com/springcloud/hystrixdashboard/HystrixDashboardApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/com/springcloud/hystrixdashboard/HystrixDashboardApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/com/springcloud/hystrixdashboard/HystrixDashboardApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/com/springcloud/hystrixdashboard/class-use/HystrixDashboardApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/com/springcloud/hystrixdashboard/class-use/HystrixDashboardApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/com/springcloud/hystrixdashboard/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/com/springcloud/hystrixdashboard/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/com/springcloud/hystrixdashboard/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/com/springcloud/hystrixdashboard/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/com/springcloud/hystrixdashboard/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/com/springcloud/hystrixdashboard/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/com/springcloud/hystrixdashboard/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/com/springcloud/hystrixdashboard/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/springcloud-hystrix-dashboard-1.0-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/springcloud-hystrix-dashboard-1.0-SNAPSHOT-javadoc.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/springcloud-hystrix-dashboard-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/springcloud-hystrix-dashboard-1.0-SNAPSHOT-sources.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/springcloud-hystrix-dashboard-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-hystrix-dashboard/target/springcloud-hystrix-dashboard-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
@@ -84,32 +275,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/test/java/com/springboot/rabbitmq/RabbitMqProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/TopicConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/TopicConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot_eureka/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-configserver/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="63">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,6 +331,9 @@
       <find>ReadOnlyCacheMap</find>
       <find>dfw==</find>
       <find>spring-cloud.version</find>
+      <find>direct.queue</find>
+      <find>headers</find>
+      <find>topic</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,23 +342,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot_eureka/src/main/java/com/springboot/eureka/DemoserverApplication.java" />
-        <option value="$PROJECT_DIR$/springboot_eureka/src/main/java/com/springboot/eureka/EurekaserverApplication.java" />
-        <option value="$PROJECT_DIR$/springboot_multithread/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot_redis/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot_redis/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/springboot_redis/src/main/java/com/springboot/redis/controller/RedisUtils.java" />
-        <option value="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/FeignApplicatio.java" />
-        <option value="$PROJECT_DIR$/springboot-businessservice/src/main/java/com/springboot/business/BussinessServiceApplication.java" />
-        <option value="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/controller/FeignController.java" />
-        <option value="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/TestFeignFallCallBack.java" />
-        <option value="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/TestFeignFallCallBackFactory.java" />
-        <option value="$PROJECT_DIR$/springcloud-hystrix-dashboard/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-hystrix-dashboard/src/main/java/com/springcloud/hystrixdashboard/AppHystrixDashboard.java" />
-        <option value="$PROJECT_DIR$/springcloud-hystrix-dashboard/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/springcloud-hystrix-dashboard/README.md" />
-        <option value="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/FeignApplication.java" />
-        <option value="$PROJECT_DIR$/springboot_eureka/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/springboot_feign/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/springcloud-gateway/src/main/java/com/springcloud/gateway/GateWayServerApplication.java" />
         <option value="$PROJECT_DIR$/springcloud-gateway/src/main/java/com/springcloud/gateway/controller/TestController.java" />
@@ -186,6 +373,26 @@
         <option value="$PROJECT_DIR$/springboot_eureka/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-configserver/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/RabbitMQApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/controller/HelloReceiver.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/RabbitConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/controller/HelloSender.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/controller/Sender.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/controller/Receiver.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/DirectConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/entity/Message.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/DirectConsumer.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/AnnotationConsumer.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/FanoutConsumer.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/HeadersConsumer.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/TopicConsumer.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/FanoutConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/HeadersConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/test/java/com/springboot/rabbitmq/RabbitMqProducer.java" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/TopicConfig.java" />
       </list>
     </option>
   </component>
@@ -234,12 +441,72 @@
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-configserver" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
@@ -260,7 +527,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-hystrix-dashboard/target" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/controller" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -272,25 +539,25 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspaces\springbootdevAll\springbootdev\springboot_feign\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspaces\springbootdevAll\springbootdev\springboot-rabbitmq\src\main\java\com\springboot\rabbitmq\controller" />
+      <recent name="D:\workspaces\springbootdevAll\springbootdev\springboot-rabbitmq\src\main\resources" />
+      <recent name="D:\workspaces\springbootdevAll\springbootdev\springboot-businessservice\src\main\java\com\springboot\business\entity" />
+      <recent name="D:\workspaces\springbootdevAll\springbootdev\springboot-businessservice\src\main\java\com\springboot\business\controller" />
+      <recent name="D:\workspaces\springbootdevAll\springbootdev\springboot-businessservice\src\main\java\com\springboot\business" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.springboot.rabbitmq" />
       <recent name="com.yss.fregata.server.config.controller" />
       <recent name="com.yss.fregata.server.config" />
       <recent name="com.springcloud.gateway.controller" />
       <recent name="com.springcloud.gateway" />
-      <recent name="com.springboot.business" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspaces\springbootdevAll\springbootdev\springboot-businessservice\src\main\java\com\springboot\business\entity" />
-      <recent name="D:\workspaces\springbootdevAll\springbootdev\springboot-businessservice\src\main\java\com\springboot\business\controller" />
-      <recent name="D:\workspaces\springbootdevAll\springbootdev\springboot-businessservice\src\main\java\com\springboot\business" />
-      <recent name="D:\workspaces\springbootdevAll\springbootdev\springcloud-gateway\src\main\resources" />
-      <recent name="D:\workspaces\springbootdevAll\springbootdev\springcloud-gateway\src\main\resources\static" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspaces\springbootdevAll\springbootdev\springboot_feign\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -305,79 +572,91 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FeignApplication">
-    <configuration name="BussinessServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-businessservice" />
+  <component name="RunManager" selected="JUnit.RabbitMqProducer.topicProducer">
+    <configuration name="RabbitMqProducer.directProducer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springboot.business.*" />
+          <option name="PATTERN" value="com.springboot.rabbitmq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.business.BussinessServiceApplication" />
+      <option name="PACKAGE_NAME" value="com.springboot.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.rabbitmq.RabbitMqProducer" />
+      <option name="METHOD_NAME" value="directProducer" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot_eureka" />
+    <configuration name="RabbitMqProducer.fanoutProducer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springboot.eureka.*" />
+          <option name="PATTERN" value="com.springboot.rabbitmq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.eureka.EurekaserverApplication" />
+      <option name="PACKAGE_NAME" value="com.springboot.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.rabbitmq.RabbitMqProducer" />
+      <option name="METHOD_NAME" value="fanoutProducer" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot_feign" />
+    <configuration name="RabbitMqProducer.headersProducer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springboot.feign.*" />
+          <option name="PATTERN" value="com.springboot.rabbitmq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.feign.FeignApplication" />
+      <option name="PACKAGE_NAME" value="com.springboot.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.rabbitmq.RabbitMqProducer" />
+      <option name="METHOD_NAME" value="headersProducer" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FregataConfigServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-configserver" />
+    <configuration name="RabbitMqProducer.topicProducer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yss.fregata.server.config.*" />
+          <option name="PATTERN" value="com.springboot.rabbitmq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yss.fregata.server.config.FregataConfigServer" />
+      <option name="PACKAGE_NAME" value="com.springboot.rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.rabbitmq.RabbitMqProducer" />
+      <option name="METHOD_NAME" value="topicProducer" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GateWayServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springcloud-gateway" />
+    <configuration name="RabbitMQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-rabbitmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springcloud.gateway.*" />
+          <option name="PATTERN" value="com.springboot.rabbitmq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.gateway.GateWayServerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.rabbitmq.RabbitMQApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurekaserverApplication" />
-        <item itemvalue="Spring Boot.FregataConfigServer" />
-        <item itemvalue="Spring Boot.GateWayServerApplication" />
-        <item itemvalue="Spring Boot.FeignApplication" />
-        <item itemvalue="Spring Boot.BussinessServiceApplication" />
+        <item itemvalue="JUnit.RabbitMqProducer.topicProducer" />
+        <item itemvalue="JUnit.RabbitMqProducer.headersProducer" />
+        <item itemvalue="JUnit.RabbitMqProducer.fanoutProducer" />
+        <item itemvalue="JUnit.RabbitMqProducer.directProducer" />
+        <item itemvalue="Spring Boot.RabbitMQApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +678,10 @@
       <workItem from="1574299163152" duration="20981000" />
       <workItem from="1574384897424" duration="19820000" />
       <workItem from="1574522065112" duration="3147000" />
-      <workItem from="1574643947634" duration="15756000" />
+      <workItem from="1574643947634" duration="16999000" />
+      <workItem from="1574688567821" duration="610000" />
+      <workItem from="1574731124096" duration="733000" />
+      <workItem from="1574817337377" duration="11288000" />
     </task>
     <task id="LOCAL-00001" summary="增加hystrix的使用">
       <created>1574308476984</created>
@@ -411,14 +693,46 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="RabbitMqProducer_fanoutProducer - 2019.11.27 at 15h 07m 47s.xml">
+      <configuration name="RabbitMqProducer.fanoutProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitMqProducer_fanoutProducer - 2019.11.27 at 15h 10m 05s.xml">
+      <configuration name="RabbitMqProducer.fanoutProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitMqProducer_headersProducer - 2019.11.27 at 15h 18m 40s.xml">
+      <configuration name="RabbitMqProducer.headersProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitMqProducer_headersProducer - 2019.11.27 at 15h 22m 18s.xml">
+      <configuration name="RabbitMqProducer.headersProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitMqProducer_topicProducer - 2019.11.27 at 15h 29m 04s.xml">
+      <configuration name="RabbitMqProducer.topicProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitMqProducer_topicProducer - 2019.11.27 at 15h 33m 16s.xml">
+      <configuration name="RabbitMqProducer.topicProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitMqProducer_topicProducer - 2019.11.27 at 15h 34m 16s.xml">
+      <configuration name="RabbitMqProducer.topicProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitMqProducer_topicProducer - 2019.11.27 at 15h 35m 16s.xml">
+      <configuration name="RabbitMqProducer.topicProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitMqProducer_topicProducer - 2019.11.27 at 15h 37m 16s.xml">
+      <configuration name="RabbitMqProducer.topicProducer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitMqProducer_topicProducer - 2019.11.27 at 15h 46m 52s.xml">
+      <configuration name="RabbitMqProducer.topicProducer" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77402000" />
+    <option name="totallyTimeSpent" value="91276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="703" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49811321" visible="true" weight="0.19676113" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49811321" visible="true" weight="0.024291499" />
       <window_info id="Structure" order="1" sideWeight="0.5018868" side_tool="true" weight="0.22995952" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -426,7 +740,7 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969034" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.091240875" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38321167" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6459854" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -434,7 +748,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.609489" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.43248177" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.49452555" />
@@ -443,7 +757,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.15222672" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.15222672" />
       <window_info anchor="right" id="Database" order="5" weight="0.32955465" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Bean Validation" order="7" />
@@ -466,170 +780,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-businessservice/src/main/resources/bootstrap.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/FeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-gateway/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-gateway/src/main/java/com/springcloud/gateway/GateWayServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.0.5.RELEASE/spring-boot-actuator-2.0.5.RELEASE.jar!/org/springframework/boot/actuate/web/trace/servlet/HttpTraceFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/filter/RequestContextFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="419" selection-start-line="419" selection-end-line="419" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.34/tomcat-embed-websocket-8.5.34.jar!/org/apache/tomcat/websocket/server/WsFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="426" selection-start-line="426" selection-end-line="426" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="496" selection-start-line="496" selection-end-line="496" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-hystrix/9.5.1/feign-hystrix-9.5.1.jar!/feign/hystrix/HystrixInvocationHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/entity/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_feign/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-hystrix-dashboard/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-hystrix-dashboard/src/main/java/com/springcloud/hystrixdashboard/HystrixDashboardApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="68" lean-forward="true" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-businessservice/src/main/java/com/springboot/business/BussinessServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/controller/FeignController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -721,20 +871,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-businessservice/src/main/java/com/springboot/business/entity/AuthToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-businessservice/src/main/java/com/springboot/business/entity/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-businessservice/src/main/java/com/springboot/business/entity/AuthToken.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-businessservice/src/main/java/com/springboot/business/entity/Users.java" />
     <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-166">
@@ -742,13 +880,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-businessservice/src/main/java/com/springboot/business/entity/Authentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-businessservice/src/main/java/com/springboot/business/entity/Authentication.java" />
     <entry file="file://$PROJECT_DIR$/springcloud-gateway/src/main/resources/bootstrap.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -835,14 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-elk/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
@@ -854,24 +978,250 @@
     <entry file="file://$PROJECT_DIR$/springboot_eureka/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="210">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-configserver/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="299">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/controller/HelloReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/controller/HelloSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-410">
+          <caret line="116" column="41" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1880#1881#0" expanded="true" />
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#3478#3479#0" expanded="true" />
+            <element signature="e#3531#3532#0" expanded="true" />
+            <element signature="e#4174#4175#0" expanded="true" />
+            <element signature="e#4224#4225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/RabbitMQApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/RabbitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#2079#2080#0" expanded="true" />
+            <element signature="e#2160#2161#0" expanded="true" />
+            <element signature="e#2218#2219#0" expanded="true" />
+            <element signature="e#2299#2300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/controller/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/controller/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/AnnotationConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.6.RELEASE/spring-rabbit-2.0.6.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="479" column="16" selection-start-line="479" selection-start-column="16" selection-end-line="479" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/entity/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/DirectConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/HeadersConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding>
+            <element signature="e#512#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/FanoutConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/HeadersConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="26" column="92" selection-start-line="26" selection-start-column="92" selection-end-line="26" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/FanoutConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/DirectConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/TopicConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/test/java/com/springboot/rabbitmq/RabbitMqProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/TopicConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

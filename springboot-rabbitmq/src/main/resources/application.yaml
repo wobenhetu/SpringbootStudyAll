@@ -26,5 +26,7 @@ spring:
     #支持消息的确认与返回
     template:
       mandatory: true
+    virtual-host: dengtest
+
 
 

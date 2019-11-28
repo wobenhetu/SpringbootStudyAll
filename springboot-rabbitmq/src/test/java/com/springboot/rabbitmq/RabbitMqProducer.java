@@ -38,7 +38,7 @@ public class RabbitMqProducer {
 
     @Test
     public void topicProducer() {
-        rabbitTemplate.convertAndSend("topic.exchange", "routing.key.hello", message);
+        rabbitTemplate.convertAndSend("exchange-stomp", "shopping.discount", "哈哈，有惊喜哈！！！！");
     }
 
     @Test

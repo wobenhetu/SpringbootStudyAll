@@ -10,12 +10,12 @@ import org.springframework.stereotype.Component;
 public class TopicConsumer {
 
     @RabbitListener(queues = {"topic.queue.one"})
-    public void topicQueueOneConsumer(Message message) {
+    public void topicQueueOneConsumer(String message) {
         log.info("topic.queue.one -> {} ", message.toString());
     }
 
     @RabbitListener(queues = {"topic.queue.two"})
-    public void topicQueueTwoConsumer(Message message) {
+    public void topicQueueTwoConsumer(String message) {
         log.info("topic.queue.two -> {} ", message.toString());
     }
 }

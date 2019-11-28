@@ -22,3 +22,4 @@ public class DirectConfig {
         return BindingBuilder.bind(directQueue()).to(directExchange()).withQueueName();
     }
 }
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>消息提醒示例</title>
+    <link rel="icon" href="data:image/ico;base64,aWNv">
+</head>
+<noscript>
+    <h2 style="color:#ff0000">貌似你的浏览器不支持websocket</h2>
+</noscript>
+<link rel="stylesheet" type="text/css" href="../static/css/default.css">
+<link rel="stylesheet" type="text/css" href="../static/css/jquery.notify.css">
+
+
+<script src="https://cdn.bootcss.com/stomp.js/2.3.3/stomp.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="../static/js/jquery.notify.js"></script>
+<script type="text/javascript">
+
+    $.notifySetup({sound: '../static/audio/notify.wav'});
+
+    // 初始化 ws 对象
+    var ws = new WebSocket('ws://192.168.101.118:15674/ws');
+
+    // 获得Stomp client对象
+
+    var client = Stomp.over(ws);
+
+    // SockJS does not support heart-beat: disable heart-beats
+
+    client.heartbeat.outgoing = 1000;
+
+    client.heartbeat.incoming = 1000;
+
+
+    // 定义连接成功回调函数
+
+    var on_connect = function(x) {
+
+//data.body是接收到的数据
+
+        client.subscribe("/exchange/exchange-stomp/shopping.discount", function(data) {
+
+            var msg = data.body;
+
+            $("<p>"+data.body+"</p>").notify({stay: 20000});
+           // alert("收到数据：" + msg);
+
+        });
+
+    };
+
+    // 定义错误时回调函数
+
+    var on_error = function(msg) {
+
+        $("<p>服务器错误："+msg+"</p>").notify("error");
+
+    };
+
+
+
+    // 连接RabbitMQ
+
+    client.connect('admin', 'admin', on_connect, on_error, '/');
+
+    console.log(">>>连接上http://192.168.101.118:15672");
+
+</script>
+</body>
+</html>

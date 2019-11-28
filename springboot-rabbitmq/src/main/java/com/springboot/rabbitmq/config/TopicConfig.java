@@ -28,12 +28,12 @@ public class TopicConfig {
 
     @Bean
     public TopicExchange topicExchange() {
-        return (TopicExchange) ExchangeBuilder.topicExchange("topic.exchange").build();
+        return (TopicExchange) ExchangeBuilder.topicExchange("exchange-stomp").build();
     }
 
     @Bean
     public Binding topicBindingOne() {
-        return BindingBuilder.bind(topicQueueOne()).to(topicExchange()).with("routing.key.*");
+        return BindingBuilder.bind(topicQueueOne()).to(topicExchange()).with("shopping.discount");
     }
 
     @Bean

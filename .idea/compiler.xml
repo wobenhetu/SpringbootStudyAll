@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot_feign" />
+        <module name="springboot-configserver" />
         <module name="springboot-kafka" />
         <module name="springboot_mybatis" />
-        <module name="springboot_eureka" />
-        <module name="springcloud-gateway" />
         <module name="springboot-rabbitmq" />
-        <module name="springboot-configserver" />
+        <module name="springcloud-gateway" />
+        <module name="springboot_feign" />
+        <module name="springboot_eureka" />
         <module name="springboot-businessservice" />
         <module name="springboot-elk" />
         <module name="springboot_multithread" />

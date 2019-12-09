@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/springboot-aop" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-businessservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-configserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-designpattern" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-elk" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-rabbitmq" charset="UTF-8" />
@@ -15,6 +16,5 @@
     <file url="file://$PROJECT_DIR$/springboot_redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-hystrix-dashboard" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test-gateway" charset="UTF-8" />
   </component>
 </project>

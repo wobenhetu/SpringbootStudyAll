@@ -37,6 +37,7 @@
         <module>springboot-elk</module>
         <module>springboot-rabbitmq</module>
         <module>springboot-kafka</module>
+        <module>springboot-designpattern</module>
     </modules>
 
 

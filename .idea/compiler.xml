@@ -6,21 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-configserver" />
+        <module name="springboot_feign" />
         <module name="springboot-kafka" />
         <module name="springboot_mybatis" />
-        <module name="springboot-rabbitmq" />
-        <module name="springcloud-gateway" />
-        <module name="springboot_feign" />
+        <module name="springboot-aop" />
         <module name="springboot_eureka" />
+        <module name="springboot-rabbitmq" />
+        <module name="springboot-configserver" />
         <module name="springboot-businessservice" />
         <module name="springboot-elk" />
         <module name="springboot_multithread" />
         <module name="springcloud-hystrix-dashboard" />
-        <module name="springboot-aop" />
+        <module name="springcloud-gateway" />
         <module name="springboot_redis" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="test-gateway" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -37,6 +40,7 @@
       <module name="springboot_redis" options="-parameters" />
       <module name="springcloud-gateway" options="-parameters" />
       <module name="springcloud-hystrix-dashboard" options="-parameters" />
+      <module name="test-gateway" options="-parameters" />
     </option>
   </component>
 </project>

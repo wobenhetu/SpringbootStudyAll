@@ -1,6 +1,10 @@
 server:
   port: 8092
 
+websocket:
+  port: 8094
+
+
 spring:
   application:
     name: springboot-feign

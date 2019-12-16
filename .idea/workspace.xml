@@ -2,35 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f57a0f0-3da2-4bbe-8878-d7319d5f8439" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/DesignPatternApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/AbstractBlackHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/AbstractWhiteHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/AbstractYellowHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/FemaleBlackHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/FemaleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/FemaleWhiteHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/FemaleYellowHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/HumanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/MaleBlackHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/MaleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/MaleWhiteHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/MaleYellowHuman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/NvWa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_factory_method/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_factory_method/ConcreteCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_factory_method/ConcreteProduct1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_factory_method/ConcreteProduct2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_factory_method/Creator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_factory_method/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_singleton/EagerSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_singleton/Singleton2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/config/EmbeddedTomcatConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/controller/TestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-designpattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-designpattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/FeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/FeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/FeignApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/FeignApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/class-use/FeignApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/class-use/FeignApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/FeignController.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/FeignController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/class-use/FeignController.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/class-use/FeignController.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/controller/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/FeignBasicAuthRequestInterceptor.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/FeignBasicAuthRequestInterceptor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/FooConfiguration.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/FooConfiguration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/TestFeign.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/TestFeign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/TestFeignFallCallBack.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/TestFeignFallCallBack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/TestFeignFallCallBackFactory.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/TestFeignFallCallBackFactory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/FeignBasicAuthRequestInterceptor.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/FeignBasicAuthRequestInterceptor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/FooConfiguration.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/FooConfiguration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/TestFeign.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/TestFeign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/TestFeignFallCallBack.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/TestFeignFallCallBack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/TestFeignFallCallBackFactory.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/class-use/TestFeignFallCallBackFactory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/feign/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/com/springboot/feign/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/apidocs/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/apidocs/package-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/classes/com/springboot/feign/FeignApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/classes/com/springboot/feign/FeignApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/springboot_feign-1.0-SNAPSHOT-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/springboot_feign-1.0-SNAPSHOT-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/springboot_feign-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/springboot_feign-1.0-SNAPSHOT-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_feign/target/springboot_feign-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_feign/target/springboot_feign-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,6 +83,7 @@
     <ignored path="$PROJECT_DIR$/springboot-kafka/target/" />
     <ignored path="$PROJECT_DIR$/test-gateway/target/" />
     <ignored path="$PROJECT_DIR$/springboot-designpattern/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-zipkin/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,114 +108,100 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/MaleWhiteHuman.java">
+        <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/controller/FeignController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="252">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/MaleBlackHuman.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-              <folding>
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/MaleFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/NvWa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/HumanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/FemaleFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/FemaleBlackHuman.java">
+        <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding>
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/Human.java">
+        <entry file="file://$PROJECT_DIR$/springboot_feign/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="245">
+              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/FooConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/resources/application.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/AbstractBlackHuman.java">
+        <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/config/EmbeddedTomcatConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="273">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
               <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/FemaleWhiteHuman.java">
+        <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/TestFeignFallCallBack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/TestFeignFallCallBackFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/FeignApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding>
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -223,18 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/controller/Sender.java" />
-        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/controller/Receiver.java" />
-        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/entity/Message.java" />
-        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/DirectConsumer.java" />
-        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/AnnotationConsumer.java" />
-        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/FanoutConsumer.java" />
-        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/HeadersConsumer.java" />
-        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/FanoutConfig.java" />
-        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/HeadersConfig.java" />
-        <option value="$PROJECT_DIR$/springboot-rabbitmq/README.md" />
-        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/DirectConfig.java" />
-        <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/TopicConfig.java" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/TopicConsumer.java" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq/src/test/java/com/springboot/rabbitmq/RabbitMqProducer.java" />
         <option value="$PROJECT_DIR$/springboot-rabbitmq/src/main/resources/application.yaml" />
@@ -245,7 +244,6 @@
         <option value="$PROJECT_DIR$/test-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/test-gateway/src/main/java/com/yss/gateway/controller/TestController.java" />
         <option value="$PROJECT_DIR$/test-gateway/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-designpattern/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/DesignPatternApplication.java" />
         <option value="$PROJECT_DIR$/springboot-designpattern/src/main/resources/application.yaml" />
@@ -274,6 +272,19 @@
         <option value="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/FemaleFactory.java" />
         <option value="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/MaleFactory.java" />
         <option value="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/NvWa.java" />
+        <option value="$PROJECT_DIR$/springcloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-zipkin/src/main/java/com/springboot/zipkinserver/config/MyTagsProvider.java" />
+        <option value="$PROJECT_DIR$/springboot-zipkin/src/main/java/com/springboot/zipkinserver/config/TagsProvideBean.java" />
+        <option value="$PROJECT_DIR$/springboot-zipkin/src/main/java/com/springboot/zipkinserver/ZipkinServerApplication.java" />
+        <option value="$PROJECT_DIR$/springboot-zipkin/src/main/resources/bootstrap.yaml" />
+        <option value="$PROJECT_DIR$/springboot-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/springboot_eureka/src/main/java/com/springboot/eureka/EurekaserverApplication.java" />
+        <option value="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/FeignApplication.java" />
+        <option value="$PROJECT_DIR$/springboot_feign/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_feign/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/config/EmbeddedTomcatConfiguration.java" />
       </list>
     </option>
   </component>
@@ -301,7 +312,7 @@
     <option name="x" value="-12" />
     <option name="y" value="-12" />
     <option name="width" value="1440" />
-    <option name="height" value="830" />
+    <option name="height" value="1392" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -311,7 +322,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,55 +332,127 @@
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_eureka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern_abstract_factory" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_eureka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springbootdev" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot" type="b2602c69:ProjectViewProjectNode" />
@@ -385,17 +467,20 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../design/dpsrc_2009-10-10-windows" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cloud3.2.1/test/test-gateway-3.2.1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -407,7 +492,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -418,11 +503,11 @@
       <recent name="D:\workspaces\springbootdevAll\springbootdev\springboot-rabbitmq\src\main\java\com\springboot\rabbitmq\controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.springboot.feign.controller" />
+      <recent name="com.springboot.zipkinserver" />
       <recent name="com.springboot.designpattern" />
       <recent name="com.springboot.kafka" />
       <recent name="com.springboot.rabbitmq" />
-      <recent name="com.yss.fregata.server.config.controller" />
-      <recent name="com.yss.fregata.server.config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspaces\springbootdevAll\springbootdev\springboot_feign\src\main\resources" />
@@ -440,7 +525,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NvWa">
+  <component name="RunManager" selected="Spring Boot.EurekaserverApplication">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springboot.designpattern.pattern_factory_method.Client" />
       <module name="springboot-designpattern" />
@@ -467,38 +552,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RabbitMqProducer.headersProducer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-rabbitmq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springboot.rabbitmq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.springboot.rabbitmq" />
-      <option name="MAIN_CLASS_NAME" value="com.springboot.rabbitmq.RabbitMqProducer" />
-      <option name="METHOD_NAME" value="headersProducer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RabbitMqProducer.topicProducer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-rabbitmq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springboot.rabbitmq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.springboot.rabbitmq" />
-      <option name="MAIN_CLASS_NAME" value="com.springboot.rabbitmq.RabbitMqProducer" />
-      <option name="METHOD_NAME" value="topicProducer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DesignPatternApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot-designpattern" />
       <extension name="coverage">
@@ -512,13 +565,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot_eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.eureka.EurekaserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot_feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.feign.FeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.FeignApplication" />
+        <item itemvalue="Spring Boot.EurekaserverApplication" />
         <item itemvalue="Application.NvWa" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Spring Boot.DesignPatternApplication" />
-        <item itemvalue="JUnit.RabbitMqProducer.topicProducer" />
-        <item itemvalue="JUnit.RabbitMqProducer.headersProducer" />
       </list>
     </recent_temporary>
   </component>
@@ -553,7 +632,12 @@
       <workItem from="1575509211220" duration="5504000" />
       <workItem from="1575596658663" duration="1474000" />
       <workItem from="1575816224627" duration="54000" />
-      <workItem from="1575855838023" duration="11221000" />
+      <workItem from="1575855838023" duration="13086000" />
+      <workItem from="1575942141849" duration="53000" />
+      <workItem from="1575946554810" duration="6303000" />
+      <workItem from="1576026289537" duration="2815000" />
+      <workItem from="1576139118880" duration="5519000" />
+      <workItem from="1576479411732" duration="2168000" />
     </task>
     <task id="LOCAL-00001" summary="增加hystrix的使用">
       <created>1574308476984</created>
@@ -598,13 +682,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136926000" />
+    <option name="totallyTimeSpent" value="155649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="703" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49811321" visible="true" weight="0.254251" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49811321" visible="true" weight="0.08582996" />
       <window_info id="Structure" order="1" sideWeight="0.5018868" side_tool="true" weight="0.22995952" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -612,7 +696,7 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969034" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22627737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.10948905" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6459854" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -620,10 +704,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.7791971" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.7828467" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.49452555" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.73722625" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -652,183 +736,11 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/FanoutConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/DirectConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="20" selection-start-column="20" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="21">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/resources/static/jquery.notify.js" />
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/DirectConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.6.RELEASE/spring-rabbit-2.0.6.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="479" column="16" selection-start-line="479" selection-start-column="16" selection-end-line="479" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE.jar!/org/springframework/boot/autoconfigure/amqp/RabbitProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/test/java/com/springboot/rabbitmq/RabbitMqProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/consumer/TopicConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/resources/static/stomp-index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="66" column="54" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/java/com/springboot/rabbitmq/config/TopicConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="42" column="1" selection-start-line="15" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/java/com/springboot/kafka/KafkaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-kafka/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-kafka/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-gateway/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/test-gateway/src/main/java/com/yss/gateway/GateWayServerApplication.java" />
-    <entry file="file://$PROJECT_DIR$/test-gateway/src/main/resources/bootstrap.yml" />
-    <entry file="file://$PROJECT_DIR$/test-gateway/src/main/java/com/yss/gateway/controller/TestController.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-gateway/src/main/resources/bootstrap.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="39" column="21" selection-start-line="15" selection-start-column="7" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-designpattern/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -869,28 +781,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_factory_method/ProductObj1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_factory_method/ProductObj2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_factory_method/ProductObj1.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_factory_method/ProductObj2.java" />
     <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_factory_method/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -961,71 +853,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/FemaleWhiteHuman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/MaleWhiteHuman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="84">
           <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding>
             <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/HumanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/MaleBlackHuman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="84">
           <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding>
             <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/MaleFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="147">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/NvWa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/HumanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/FemaleFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/FemaleBlackHuman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="84">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding>
             <element signature="e#162#163#0" expanded="true" />
             <element signature="e#204#205#0" expanded="true" />
@@ -1036,19 +917,188 @@
     <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/Human.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/FemaleWhiteHuman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_abstract_factory/AbstractBlackHuman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="168">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
             <element signature="e#150#151#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#227#228#0" expanded="true" />
             <element signature="e#278#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-zipkin/src/main/java/com/springboot/zipkinserver/config/MyTagsProvider.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-zipkin/src/main/java/com/springboot/zipkinserver/config/TagsProvideBean.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-zipkin/src/main/java/com/springboot/zipkinserver/ZipkinServerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-zipkin/src/main/resources/bootstrap.yaml" />
+    <entry file="file://$PROJECT_DIR$/springboot-zipkin/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/springboot-rabbitmq/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-gateway/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="21" selection-start-line="33" selection-start-column="6" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-configserver/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-gateway/src/main/resources/bootstrap.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/FeignBasicAuthRequestInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/TestFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/TestFeignFallCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/TestFeignFallCallBackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/controller/FeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_eureka/src/main/java/com/springboot/eureka/EurekaserverApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/org/apache/commons/lang/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/feign/FooConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/FeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_feign/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_feign/src/main/java/com/springboot/feign/config/EmbeddedTomcatConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1114,11 +1164,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>springcloud-hystrix-dashboard</last-edited>
+          <last-edited>springboot_eureka</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

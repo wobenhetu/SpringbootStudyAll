@@ -1,3 +1,4 @@
 com.springboot.feign
+com.springboot.feign.config
 com.springboot.feign.controller
 com.springboot.feign.feign

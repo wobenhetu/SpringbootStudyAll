@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-aop" />
+        <module name="springboot-designpattern" />
         <module name="springboot_mybatis" />
         <module name="springcloud-gateway" />
+        <module name="springboot-aop" />
         <module name="springboot-rabbitmq" />
         <module name="springboot-kafka" />
         <module name="springboot_eureka" />
@@ -18,11 +19,11 @@
         <module name="springboot_feign" />
         <module name="springboot-businessservice" />
         <module name="springboot-configserver" />
-        <module name="springboot-designpattern" />
         <module name="springboot-elk" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-zipkin" target="1.8" />
       <module name="test-gateway" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -35,6 +36,7 @@
       <module name="springboot-elk" options="-parameters" />
       <module name="springboot-kafka" options="-parameters" />
       <module name="springboot-rabbitmq" options="-parameters" />
+      <module name="springboot-zipkin" options="-parameters" />
       <module name="springboot_eureka" options="-parameters" />
       <module name="springboot_feign" options="-parameters" />
       <module name="springboot_multithread" options="-parameters" />

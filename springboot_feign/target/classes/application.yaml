@@ -1,6 +1,5 @@
 server:
   port: 8092
-#  additionalPorts: 8881,8882
 
 websocket:
   port: 8094

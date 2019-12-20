@@ -1,6 +1,7 @@
 package com.springboot.multithread.chapter1_semaphore.semaphore;
 
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class MyService {
 
@@ -13,7 +14,9 @@ public class MyService {
     * acquireUninterruptibly()使等待进入acquire（）方法的线程，不允许被中断：
     *
     * */
-    private Semaphore semaphore =  new Semaphore(1);
+    private Semaphore semaphore =  new Semaphore(3);
+
+    private ReentrantLock reentrantLock = new ReentrantLock();
 
     public void testMethod(String name){
         try {
@@ -50,9 +53,33 @@ public class MyService {
                 e.printStackTrace();
             }
             System.out.println(Thread.currentThread().getName()+name+"  end time="+System.currentTimeMillis());
+            semaphore.release();
         }else{
             System.out.println(Thread.currentThread().getName()+name+"未获得许可");
         }
     }
 
+
+    public void testMethod3(){
+        try {
+            semaphore.acquire();
+            System.out.println(Thread.currentThread().getName()+"准备");
+            reentrantLock.lock();
+            System.out.println(Thread.currentThread().getName()+"  begin time="+System.currentTimeMillis());
+
+            for (int i=0;i<5;i++){
+                System.out.println(Thread.currentThread().getName()+"打印"+i);
+            }
+
+            System.out.println("大约还有"+semaphore.getQueueLength()+"个线程在等待");
+            System.out.println("是否有线程还在等待信号量呢？"+semaphore.hasQueuedThreads());
+            Thread.sleep(1000);
+            System.out.println(Thread.currentThread().getName()+"  end time="+System.currentTimeMillis());
+            reentrantLock.unlock();
+            semaphore.release();
+
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }

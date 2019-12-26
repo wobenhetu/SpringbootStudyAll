@@ -14,8 +14,8 @@
 2019-12-26 10:09:23.080  INFO 20180 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2019-12-26 10:09:23.213  INFO 20180 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
 2019-12-26 10:09:23.446  INFO 20180 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-12-26 10:09:23.448  INFO 20180 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/D:/workspaces/springbootdevAll/springbootdev/springboot_mybatis/target/classes/schema-mysql.sql]
-2019-12-26 10:09:23.526  INFO 20180 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/D:/workspaces/springbootdevAll/springbootdev/springboot_mybatis/target/classes/schema-mysql.sql] in 77 ms.
+2019-12-26 10:09:23.448  INFO 20180 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/D:/workspaces/springbootdevAll/springbootdev/springboot_mybatis/target/classes/schema-all.sql]
+2019-12-26 10:09:23.526  INFO 20180 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/D:/workspaces/springbootdevAll/springbootdev/springboot_mybatis/target/classes/schema-all.sql] in 77 ms.
 2019-12-26 10:09:23.906  INFO 20180 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 2019-12-26 10:09:24.096  INFO 20180 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@dbf57b3: startup date [Thu Dec 26 10:09:20 CST 2019]; root of context hierarchy
 2019-12-26 10:09:24.153  INFO 20180 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getlist]}" onto public java.util.List<com.springboot.mybatis.bean.User> com.springboot.mybatis.controller.JdbcController.getUserList()
@@ -44,8 +44,8 @@
 2019-12-26 10:11:22.418  INFO 15512 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
 2019-12-26 10:11:22.512  INFO 15512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
 2019-12-26 10:11:22.677  INFO 15512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-12-26 10:11:22.680  INFO 15512 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/D:/workspaces/springbootdevAll/springbootdev/springboot_mybatis/target/classes/schema-mysql.sql]
-2019-12-26 10:11:22.690  INFO 15512 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/D:/workspaces/springbootdevAll/springbootdev/springboot_mybatis/target/classes/schema-mysql.sql] in 10 ms.
+2019-12-26 10:11:22.680  INFO 15512 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/D:/workspaces/springbootdevAll/springbootdev/springboot_mybatis/target/classes/schema-all.sql]
+2019-12-26 10:11:22.690  INFO 15512 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/D:/workspaces/springbootdevAll/springbootdev/springboot_mybatis/target/classes/schema-all.sql] in 10 ms.
 2019-12-26 10:11:22.953  INFO 15512 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 2019-12-26 10:11:23.085  INFO 15512 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61862a7f: startup date [Thu Dec 26 10:11:21 CST 2019]; root of context hierarchy
 2019-12-26 10:11:23.126  INFO 15512 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getlist]}" onto public java.util.List<com.springboot.mybatis.bean.User> com.springboot.mybatis.controller.JdbcController.getUserList()

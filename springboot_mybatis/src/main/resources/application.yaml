@@ -21,6 +21,3 @@ mybatis:
 server:
   port: 8096   #可以填入任意值，持续交付过时会被覆盖
 
-logging:
-  file: "logs/${spring.application.name}"
-

@@ -1,63 +1,362 @@
-2019-12-26 10:09:20.699  INFO 20180 --- [main] com.springboot.mybatis.App               : Starting App on dengfenwu with PID 20180 (D:\workspaces\springbootdevAll\springbootdev\springboot_mybatis\target\classes started by Administrator in D:\workspaces\springbootdevAll\springbootdev)
-2019-12-26 10:09:20.706  INFO 20180 --- [main] com.springboot.mybatis.App               : No active profile set, falling back to default profiles: default
-2019-12-26 10:09:20.800  INFO 20180 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@dbf57b3: startup date [Thu Dec 26 10:09:20 CST 2019]; root of context hierarchy
-2019-12-26 10:09:22.863  INFO 20180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8096 (http)
-2019-12-26 10:09:22.893  INFO 20180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-12-26 10:09:22.893  INFO 20180 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
-2019-12-26 10:09:22.898  INFO 20180 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\install\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\soft\apache-maven-3.6.1\bin\;E:\install\Git\cmd;D:\devworkspaces\soft\mysql-8.0.16\bin;D:\devworkspaces\soft\Node\;C:\Program Files\Java\jdk1.8.0_211\bin\;C:\Python27;C:\Python27\Scripts;D:\devworkspaces\soft\Microsoft VS Code\bin;E:\install\scala\bin;C:\windows-amd64;C:\Program Files\erl10.0.1\bin;C:\Program Files (x86)\GnuWin32\bin;D:\workspaces\spring\gradle-6.1-milestone-3-bin\gradle-6.1-milestone-3\bin;C:\Python373\Scripts\;C:\Python373\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\BypassRuntm;.]
-2019-12-26 10:09:22.999  INFO 20180 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-12-26 10:09:22.999  INFO 20180 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2199 ms
-2019-12-26 10:09:23.072  INFO 20180 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
-2019-12-26 10:09:23.079  INFO 20180 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
-2019-12-26 10:09:23.080  INFO 20180 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2019-12-26 10:09:23.080  INFO 20180 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2019-12-26 10:09:23.080  INFO 20180 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
-2019-12-26 10:09:23.213  INFO 20180 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-12-26 10:09:23.446  INFO 20180 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-12-26 10:09:23.448  INFO 20180 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/D:/workspaces/springbootdevAll/springbootdev/springboot_mybatis/target/classes/schema-all.sql]
-2019-12-26 10:09:23.526  INFO 20180 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/D:/workspaces/springbootdevAll/springbootdev/springboot_mybatis/target/classes/schema-all.sql] in 77 ms.
-2019-12-26 10:09:23.906  INFO 20180 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2019-12-26 10:09:24.096  INFO 20180 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@dbf57b3: startup date [Thu Dec 26 10:09:20 CST 2019]; root of context hierarchy
-2019-12-26 10:09:24.153  INFO 20180 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getlist]}" onto public java.util.List<com.springboot.mybatis.bean.User> com.springboot.mybatis.controller.JdbcController.getUserList()
-2019-12-26 10:09:24.158  INFO 20180 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2019-12-26 10:09:24.159  INFO 20180 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2019-12-26 10:09:24.189  INFO 20180 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2019-12-26 10:09:24.189  INFO 20180 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2019-12-26 10:09:24.386  INFO 20180 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
-2019-12-26 10:09:24.387  INFO 20180 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
-2019-12-26 10:09:24.391  INFO 20180 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
-2019-12-26 10:09:24.429  INFO 20180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8096 (http) with context path ''
-2019-12-26 10:09:24.433  INFO 20180 --- [main] com.springboot.mybatis.App               : Started App in 4.498 seconds (JVM running for 6.022)
-2019-12-26 10:11:21.019  INFO 15512 --- [main] com.springboot.mybatis.App               : Starting App on dengfenwu with PID 15512 (D:\workspaces\springbootdevAll\springbootdev\springboot_mybatis\target\classes started by Administrator in D:\workspaces\springbootdevAll\springbootdev)
-2019-12-26 10:11:21.022  INFO 15512 --- [main] com.springboot.mybatis.App               : No active profile set, falling back to default profiles: default
-2019-12-26 10:11:21.072  INFO 15512 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61862a7f: startup date [Thu Dec 26 10:11:21 CST 2019]; root of context hierarchy
-2019-12-26 10:11:22.236  INFO 15512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8096 (http)
-2019-12-26 10:11:22.259  INFO 15512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-12-26 10:11:22.260  INFO 15512 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
-2019-12-26 10:11:22.264  INFO 15512 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\install\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\soft\apache-maven-3.6.1\bin\;E:\install\Git\cmd;D:\devworkspaces\soft\mysql-8.0.16\bin;D:\devworkspaces\soft\Node\;C:\Program Files\Java\jdk1.8.0_211\bin\;C:\Python27;C:\Python27\Scripts;D:\devworkspaces\soft\Microsoft VS Code\bin;E:\install\scala\bin;C:\windows-amd64;C:\Program Files\erl10.0.1\bin;C:\Program Files (x86)\GnuWin32\bin;D:\workspaces\spring\gradle-6.1-milestone-3-bin\gradle-6.1-milestone-3\bin;C:\Python373\Scripts\;C:\Python373\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\BypassRuntm;.]
-2019-12-26 10:11:22.357  INFO 15512 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-12-26 10:11:22.357  INFO 15512 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1285 ms
-2019-12-26 10:11:22.414  INFO 15512 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
-2019-12-26 10:11:22.417  INFO 15512 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
-2019-12-26 10:11:22.418  INFO 15512 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2019-12-26 10:11:22.418  INFO 15512 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2019-12-26 10:11:22.418  INFO 15512 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
-2019-12-26 10:11:22.512  INFO 15512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2019-12-26 10:11:22.677  INFO 15512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2019-12-26 10:11:22.680  INFO 15512 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/D:/workspaces/springbootdevAll/springbootdev/springboot_mybatis/target/classes/schema-all.sql]
-2019-12-26 10:11:22.690  INFO 15512 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/D:/workspaces/springbootdevAll/springbootdev/springboot_mybatis/target/classes/schema-all.sql] in 10 ms.
-2019-12-26 10:11:22.953  INFO 15512 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2019-12-26 10:11:23.085  INFO 15512 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61862a7f: startup date [Thu Dec 26 10:11:21 CST 2019]; root of context hierarchy
-2019-12-26 10:11:23.126  INFO 15512 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getlist]}" onto public java.util.List<com.springboot.mybatis.bean.User> com.springboot.mybatis.controller.JdbcController.getUserList()
-2019-12-26 10:11:23.131  INFO 15512 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2019-12-26 10:11:23.131  INFO 15512 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2019-12-26 10:11:23.153  INFO 15512 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2019-12-26 10:11:23.153  INFO 15512 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2019-12-26 10:11:23.352  INFO 15512 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
-2019-12-26 10:11:23.354  INFO 15512 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
-2019-12-26 10:11:23.359  INFO 15512 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
-2019-12-26 10:11:23.399  INFO 15512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8096 (http) with context path ''
-2019-12-26 10:11:23.403  INFO 15512 --- [main] com.springboot.mybatis.App               : Started App in 2.798 seconds (JVM running for 4.021)
-2019-12-26 10:11:37.585  INFO 15512 --- [http-nio-8096-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
-2019-12-26 10:11:37.585  INFO 15512 --- [http-nio-8096-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
-2019-12-26 10:11:37.608  INFO 15512 --- [http-nio-8096-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2019-12-31 11:22:23.472  INFO 10608 --- [main] com.springboot.mybatis.App               : Starting App on dengfenwu with PID 10608 (D:\workspaces\springbootdevAll\springbootdev\springboot_mybatis\target\classes started by Administrator in D:\workspaces\springbootdevAll\springbootdev)
+2019-12-31 11:22:23.512  INFO 10608 --- [main] com.springboot.mybatis.App               : No active profile set, falling back to default profiles: default
+2019-12-31 11:22:23.613  INFO 10608 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2b76ff4e: startup date [Tue Dec 31 11:22:23 CST 2019]; root of context hierarchy
+2019-12-31 11:22:25.010  INFO 10608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8096 (http)
+2019-12-31 11:22:25.039  INFO 10608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 11:22:25.039  INFO 10608 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-12-31 11:22:25.042  INFO 10608 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\install\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\soft\apache-maven-3.6.1\bin\;E:\install\Git\cmd;D:\devworkspaces\soft\mysql-8.0.16\bin;D:\devworkspaces\soft\Node\;C:\Program Files\Java\jdk1.8.0_211\bin\;C:\Python27;C:\Python27\Scripts;D:\devworkspaces\soft\Microsoft VS Code\bin;E:\install\scala\bin;C:\windows-amd64;C:\Program Files\erl10.0.1\bin;C:\Program Files (x86)\GnuWin32\bin;D:\workspaces\spring\gradle-6.1-milestone-3-bin\gradle-6.1-milestone-3\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Python373\Scripts\;C:\Python373\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\BypassRuntm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+2019-12-31 11:22:25.151  INFO 10608 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 11:22:25.152  INFO 10608 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1539 ms
+2019-12-31 11:22:25.243  INFO 10608 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-12-31 11:22:25.251  INFO 10608 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-31 11:22:25.252  INFO 10608 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-31 11:22:25.252  INFO 10608 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-31 11:22:25.252  INFO 10608 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-31 11:22:25.648  INFO 10608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-31 11:22:26.913 ERROR 10608 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.Util.getInstance(Util.java:408) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:878) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:874) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1777) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460) [HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534) [HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) [HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) [HikariCP-2.7.9.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:46) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.execute(DataSourceInitializer.java:111) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.afterPropertiesSet(DataSourceInitializer.java:96) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1758) [spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695) [spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573) [spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) [spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) [spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) [spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at com.springboot.mybatis.App.main(App.java:12) ~[classes/:na]
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.Util.getInstance(Util.java:408) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1775) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	... 45 common frames omitted
+
+2019-12-31 11:22:26.923  WARN 10608 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceInitializer' defined in class path resource [com/springboot/mybatis/config/BatchTaskDataSourceInitializer.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.UncategorizedScriptException: Failed to execute database script; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2019-12-31 11:22:26.926  INFO 10608 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-31 11:22:26.939  INFO 10608 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-31 11:22:26.946 ERROR 10608 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceInitializer' defined in class path resource [com/springboot/mybatis/config/BatchTaskDataSourceInitializer.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.UncategorizedScriptException: Failed to execute database script; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1699) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780) [spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) [spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333) [spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277) [spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265) [spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at com.springboot.mybatis.App.main(App.java:12) [classes/:na]
+Caused by: org.springframework.jdbc.datasource.init.UncategorizedScriptException: Failed to execute database script; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:58) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.execute(DataSourceInitializer.java:111) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.afterPropertiesSet(DataSourceInitializer.java:96) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1758) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	... 16 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:46) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	... 20 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.Util.getInstance(Util.java:408) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:878) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:874) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1777) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-2.7.9.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	... 21 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.Util.getInstance(Util.java:408) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1775) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	... 45 common frames omitted
+
+2019-12-31 11:23:11.658  INFO 13652 --- [main] com.springboot.mybatis.App               : Starting App on dengfenwu with PID 13652 (D:\workspaces\springbootdevAll\springbootdev\springboot_mybatis\target\classes started by Administrator in D:\workspaces\springbootdevAll\springbootdev)
+2019-12-31 11:23:11.662  INFO 13652 --- [main] com.springboot.mybatis.App               : No active profile set, falling back to default profiles: default
+2019-12-31 11:23:11.712  INFO 13652 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61862a7f: startup date [Tue Dec 31 11:23:11 CST 2019]; root of context hierarchy
+2019-12-31 11:23:12.855  INFO 13652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8096 (http)
+2019-12-31 11:23:12.879  INFO 13652 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-31 11:23:12.879  INFO 13652 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2019-12-31 11:23:12.882  INFO 13652 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\install\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\soft\apache-maven-3.6.1\bin\;E:\install\Git\cmd;D:\devworkspaces\soft\mysql-8.0.16\bin;D:\devworkspaces\soft\Node\;C:\Program Files\Java\jdk1.8.0_211\bin\;C:\Python27;C:\Python27\Scripts;D:\devworkspaces\soft\Microsoft VS Code\bin;E:\install\scala\bin;C:\windows-amd64;C:\Program Files\erl10.0.1\bin;C:\Program Files (x86)\GnuWin32\bin;D:\workspaces\spring\gradle-6.1-milestone-3-bin\gradle-6.1-milestone-3\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Python373\Scripts\;C:\Python373\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\BypassRuntm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+2019-12-31 11:23:12.967  INFO 13652 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-31 11:23:12.967  INFO 13652 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1255 ms
+2019-12-31 11:23:13.022  INFO 13652 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-12-31 11:23:13.025  INFO 13652 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-31 11:23:13.026  INFO 13652 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-31 11:23:13.026  INFO 13652 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-31 11:23:13.026  INFO 13652 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-31 11:23:13.227  INFO 13652 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-31 11:23:14.348 ERROR 13652 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.Util.getInstance(Util.java:408) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:878) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:874) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1777) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460) [HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534) [HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) [HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) [HikariCP-2.7.9.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:46) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.execute(DataSourceInitializer.java:111) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.afterPropertiesSet(DataSourceInitializer.java:96) [spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1758) [spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695) [spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573) [spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) [spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) [spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) [spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at com.springboot.mybatis.App.main(App.java:12) ~[classes/:na]
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.Util.getInstance(Util.java:408) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1775) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	... 45 common frames omitted
+
+2019-12-31 11:23:14.351  WARN 13652 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceInitializer' defined in class path resource [com/springboot/mybatis/config/BatchTaskDataSourceInitializer.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.UncategorizedScriptException: Failed to execute database script; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Public Key Retrieval is not allowed
+2019-12-31 11:23:14.353  INFO 13652 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-12-31 11:23:14.361  INFO 13652 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-12-31 11:23:14.366 ERROR 13652 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceInitializer' defined in class path resource [com/springboot/mybatis/config/BatchTaskDataSourceInitializer.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.UncategorizedScriptException: Failed to execute database script; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1699) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780) [spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412) [spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333) [spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277) [spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265) [spring-boot-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at com.springboot.mybatis.App.main(App.java:12) [classes/:na]
+Caused by: org.springframework.jdbc.datasource.init.UncategorizedScriptException: Failed to execute database script; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:58) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.execute(DataSourceInitializer.java:111) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.init.DataSourceInitializer.afterPropertiesSet(DataSourceInitializer.java:96) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1758) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695) ~[spring-beans-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	... 16 common frames omitted
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:46) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	... 20 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.Util.getInstance(Util.java:408) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:878) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:874) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1777) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-2.7.9.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-2.7.9.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78) ~[spring-jdbc-5.0.9.RELEASE.jar:5.0.9.RELEASE]
+	... 21 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.Util.getInstance(Util.java:408) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:130) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1775) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+	... 45 common frames omitted
+

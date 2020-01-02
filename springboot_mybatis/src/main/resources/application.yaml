@@ -17,6 +17,9 @@ spring:
 mybatis:
   mapper-locations: classpath:mapper/*.xml
 
+pagehelper:
+  helper-dialect: mysql
+
 server:
   port: 8096   #可以填入任意值，持续交付过时会被覆盖
 

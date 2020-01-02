@@ -1,7 +1,6 @@
 #&allowPublicKeyRetrieval=true作用
 #在使用MyBatis的项目中，升级了数据库驱动的版本，在项目启动过程中，抛出了Public Key Retrieval is not allowed异常
 
-
 spring:
   application:
     name:  springboot_mybatis
@@ -17,6 +16,9 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
+
+pagehelper:
+  helper-dialect: mysql
 
 server:
   port: 8096   #可以填入任意值，持续交付过时会被覆盖

@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `id` bigint(20) unsigned NOT NULL ,
   `name` varchar(31) NOT NULL,
   `age` varchar(31) NOT NULL,
-  `sex` varchar(31) DEFAULT NULL,
+  `sex` varchar(31) NOT NULL,
    PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC;
 

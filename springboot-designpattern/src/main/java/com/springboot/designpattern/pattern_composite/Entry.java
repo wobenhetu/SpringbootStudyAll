@@ -10,9 +10,9 @@ public abstract class Entry {
         throw new FileTreatmentException();
     }
 
-    public void printList() {                                       // 为一览加上前缀并显示目录条目一览
+   /* public void printList() {                                       // 为一览加上前缀并显示目录条目一览
         printList("");
-    }
+    }*/
 
     protected abstract void printList(String prefix);               // 为一览加上前缀
 

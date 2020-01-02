@@ -13,7 +13,7 @@ public class Main {
             rootdir.add(usrdir);
             bindir.add(new MyFile("vi", 10000));
             bindir.add(new MyFile("latex", 20000));
-            rootdir.printList();
+            rootdir.printList("");
 
             //------------------------------------------------
             System.out.println("");
@@ -29,7 +29,7 @@ public class Main {
             hanako.add(new MyFile("memo.tex", 300));
             tomura.add(new MyFile("game.doc", 400));
             tomura.add(new MyFile("junk.mail", 500));
-            rootdir.printList();
+            rootdir.printList("");
         } catch (FileTreatmentException e) {
             e.printStackTrace();
         }

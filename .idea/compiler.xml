@@ -19,6 +19,7 @@
         <module name="springboot_feign" />
         <module name="springboot-businessservice" />
         <module name="springboot-configserver" />
+        <module name="springboot-annotation" />
         <module name="springboot-elk" />
       </profile>
     </annotationProcessing>
@@ -29,6 +30,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-annotation" options="-parameters" />
       <module name="springboot-aop" options="-parameters" />
       <module name="springboot-businessservice" options="-parameters" />
       <module name="springboot-configserver" options="-parameters" />

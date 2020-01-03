@@ -38,6 +38,7 @@
         <module>springboot-rabbitmq</module>
         <module>springboot-kafka</module>
         <module>springboot-designpattern</module>
+        <module>springboot-annotation</module>
     </modules>
 
 

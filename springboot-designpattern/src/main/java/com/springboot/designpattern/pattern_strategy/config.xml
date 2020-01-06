@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<config>
+    <className>com.springboot.designpattern.pattern_strategy.StudentDiscount</className>
+</config>

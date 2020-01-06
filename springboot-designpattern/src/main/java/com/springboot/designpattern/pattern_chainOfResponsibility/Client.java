@@ -4,13 +4,13 @@ class Client {
 	public static void main(String[] args) {
 		Approver wjzhang,gyang,jguo,meeting;
 		wjzhang = new Director("张无忌");
-		gyang = new VicePresident("杨过");
+		//gyang = new VicePresident("杨过");
 		jguo = new President("郭靖");
 		meeting = new Congress("董事会");
 	
 		//创建职责链
-		wjzhang.setSuccessor(gyang);
-		gyang.setSuccessor(jguo);
+		wjzhang.setSuccessor(jguo);
+//		gyang.setSuccessor(jguo);
 		jguo.setSuccessor(meeting);
 		
 		//创建采购单

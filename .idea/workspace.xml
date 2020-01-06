@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f57a0f0-3da2-4bbe-8878-d7319d5f8439" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Approver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Congress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/President.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/PurchaseRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/VicePresident.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Client.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -95,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/PurchaseRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="63">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
               <folding>
                 <element signature="e#386#387#0" expanded="true" />
                 <element signature="e#413#414#0" expanded="true" />
@@ -108,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Approver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="168">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#294#295#0" expanded="true" />
                 <element signature="e#328#329#0" expanded="true" />
@@ -121,8 +114,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Director.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="21">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding>
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/VicePresident.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="210">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -139,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/President.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="84">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -148,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Congress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="147">
+              <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -157,8 +154,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="126">
+              <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -253,8 +250,8 @@
         <option value="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/VicePresident.java" />
         <option value="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/President.java" />
         <option value="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Congress.java" />
-        <option value="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Client.java" />
         <option value="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Approver.java" />
+        <option value="$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Client.java" />
       </list>
     </option>
   </component>
@@ -722,7 +719,7 @@
       <workItem from="1577755127704" duration="16294000" />
       <workItem from="1577927806590" duration="29712000" />
       <workItem from="1578041339756" duration="1222000" />
-      <workItem from="1578274335459" duration="6569000" />
+      <workItem from="1578274335459" duration="8574000" />
     </task>
     <task id="LOCAL-00001" summary="增加hystrix的使用">
       <created>1574308476984</created>
@@ -767,13 +764,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276450000" />
+    <option name="totallyTimeSpent" value="278455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="703" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49811321" visible="true" weight="0.25020242" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49811321" visible="true" weight="0.024291499" />
       <window_info id="Structure" order="1" sideWeight="0.5018868" side_tool="true" weight="0.22995952" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -781,7 +778,7 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32846716" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.56386864" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30839416" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.50547445" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -789,7 +786,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.640511" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.093065694" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.53467155" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.73722625" />
@@ -1287,8 +1284,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Approver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state relative-caret-position="168">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#294#295#0" expanded="true" />
             <element signature="e#328#329#0" expanded="true" />
@@ -1296,31 +1293,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Congress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Director.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/President.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="84">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/PurchaseRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="63">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding>
             <element signature="e#386#387#0" expanded="true" />
             <element signature="e#413#414#0" expanded="true" />
@@ -1328,17 +1311,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Director.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Congress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/VicePresident.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="210">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-designpattern/src/main/java/com/springboot/designpattern/pattern_chainOfResponsibility/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="126">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>

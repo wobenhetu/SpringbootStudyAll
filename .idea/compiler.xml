@@ -6,21 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-designpattern" />
-        <module name="springboot-configserver" />
+        <module name="springboot-annotation" />
+        <module name="springboot-aop" />
         <module name="springboot_mybatis" />
         <module name="springcloud-gateway" />
-        <module name="springboot-aop" />
         <module name="springboot-rabbitmq" />
-        <module name="springboot_redis" />
         <module name="springboot-kafka" />
         <module name="springboot_eureka" />
         <module name="springboot_multithread" />
         <module name="springcloud-hystrix-dashboard" />
+        <module name="springboot_redis" />
         <module name="springboot_feign" />
         <module name="springboot-businessservice" />
         <module name="business-service" />
-        <module name="springboot-annotation" />
+        <module name="springboot-configserver" />
+        <module name="springboot-designpattern" />
         <module name="springboot-elk" />
       </profile>
     </annotationProcessing>

@@ -1,9 +1,0 @@
-
-spring:
-  application:
-    name:  springboot-annotation
-
-server:
-  port: 8097
-
-debug: true

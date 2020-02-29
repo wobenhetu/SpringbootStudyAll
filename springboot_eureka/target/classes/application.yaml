@@ -2,7 +2,7 @@ server:
   port: 8761
 eureka:
   server:
-    enable-self-preservation: false
+    enable-self-preservation: false  #关闭自我保护机制
     use-read-only-response-cache: false
     eviction-interval-timer-in-ms: 5000
     peer-node-read-timeout-ms: 5000

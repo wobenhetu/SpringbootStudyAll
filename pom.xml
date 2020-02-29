@@ -5,19 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!--引的官方的parent-->
-   <!-- <parent>
+    <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.5.RELEASE</version>
-        <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;
-    </parent>-->
-
-    <!--引的maven私服的2.0 pom-->
-    <parent>
-        <groupId>com.yss.fregata</groupId>
-        <artifactId>fregata-parent</artifactId>
-        <version>2.0.0</version>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
 
     <groupId>com.springboot.study</groupId>
     <artifactId>springboot</artifactId>

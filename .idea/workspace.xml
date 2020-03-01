@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f57a0f0-3da2-4bbe-8878-d7319d5f8439" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/reference-word/java面试知识点总结.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reference-word/~$va面试知识点总结.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reference-word/~$编程技术要点.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_multithread/src/main/java/com/springboot/multithread/chapter1_threadknowlegde/Profiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_multithread/src/main/java/com/springboot/multithread/chapter1_threadknowlegde/Shutdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_multithread/src/main/java/com/springboot/multithread/chapter1_threadknowlegde/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_multithread/src/main/java/com/springboot/multithread/chapter1_threadknowlegde/ThreadJoin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reference-word/并发编程技术要点.docx" beforeDir="false" afterPath="$PROJECT_DIR$/reference-word/并发编程技术要点.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +95,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -109,7 +121,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -130,13 +142,13 @@
       <recent name="D:\workspaces\springbootdevAll\springbootdev\test-gateway\src\main\java\com\yss\gateway" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaserverApplication">
-    <configuration name="AtomicIntegerABA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springboot.multithread.chapter11_cas.AtomicIntegerABA" />
+  <component name="RunManager" selected="Application.Profiler">
+    <configuration name="Profiler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springboot.multithread.chapter1_threadknowlegde.Profiler" />
       <module name="springboot_multithread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springboot.multithread.chapter11_cas.*" />
+          <option name="PATTERN" value="com.springboot.multithread.chapter1_threadknowlegde.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicStampedReferenceABA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springboot.multithread.chapter11_cas.AtomicStampedReferenceABA" />
+    <configuration name="Shutdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springboot.multithread.chapter1_threadknowlegde.Shutdown" />
       <module name="springboot_multithread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springboot.multithread.chapter11_cas.*" />
+          <option name="PATTERN" value="com.springboot.multithread.chapter1_threadknowlegde.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springboot.designpattern.pattern_chainOfResponsibility.Client" />
-      <module name="springboot-designpattern" />
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springboot.multithread.chapter1_threadknowlegde.TestDemo" />
+      <module name="springboot_multithread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springboot.designpattern.pattern_chainOfResponsibility.*" />
+          <option name="PATTERN" value="com.springboot.multithread.chapter1_threadknowlegde.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springboot.designpattern.pattern_strategy.Client" />
-      <module name="springboot-designpattern" />
+    <configuration name="ThreadJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springboot.multithread.chapter1_threadknowlegde.ThreadJoin" />
+      <module name="springboot_multithread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springboot.designpattern.pattern_strategy.*" />
+          <option name="PATTERN" value="com.springboot.multithread.chapter1_threadknowlegde.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Profiler" />
+        <item itemvalue="Application.TestDemo" />
+        <item itemvalue="Application.ThreadJoin" />
+        <item itemvalue="Application.Shutdown" />
         <item itemvalue="Spring Boot.EurekaserverApplication" />
-        <item itemvalue="Application.AtomicStampedReferenceABA" />
-        <item itemvalue="Application.AtomicIntegerABA" />
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +279,14 @@
       <workItem from="1579483830881" duration="3062000" />
       <workItem from="1579568639776" duration="597000" />
       <workItem from="1582880568679" duration="1463000" />
-      <workItem from="1582959594205" duration="236000" />
+      <workItem from="1582959594205" duration="1588000" />
+      <workItem from="1582966084027" duration="868000" />
+      <workItem from="1582973756443" duration="129000" />
+      <workItem from="1582973908865" duration="326000" />
+      <workItem from="1582974270741" duration="783000" />
+      <workItem from="1582975411983" duration="205000" />
+      <workItem from="1582975684176" duration="59000" />
+      <workItem from="1582975778493" duration="7104000" />
     </task>
     <task id="LOCAL-00001" summary="增加hystrix的使用">
       <created>1574308476984</created>
@@ -360,6 +379,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="增加hystrix的使用" />
     <MESSAGE value="本工程独立引入阿里源" />
     <MESSAGE value="CAS的ABA问题分析和处理" />
@@ -369,34 +389,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="jvm学习之类加载器，自定义加载器的新增" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="83" y="64" key="FileChooserDialogImpl" timestamp="1582881401629">
+    <state x="234" y="47" key="#HTTP_Proxy" timestamp="1582973876700">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="83" y="64" key="FileChooserDialogImpl/0.0.1280.770@0.0.1280.770" timestamp="1582881401629" />
-    <state width="1238" height="39" key="GridCell.Tab.0.bottom" timestamp="1582881253426">
+    <state x="234" y="47" key="#HTTP_Proxy/0.0.1280.770@0.0.1280.770" timestamp="1582973876700" />
+    <state x="446" y="94" key="#com.intellij.ide.util.MemberChooser" timestamp="1583056292522">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="39" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1582881253426" />
-    <state width="1238" height="39" key="GridCell.Tab.0.center" timestamp="1582881253426">
+    <state x="446" y="94" key="#com.intellij.ide.util.MemberChooser/0.0.1280.770@0.0.1280.770" timestamp="1583056292522" />
+    <state x="83" y="64" key="FileChooserDialogImpl" timestamp="1582975736921">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="39" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1582881253426" />
-    <state width="1238" height="39" key="GridCell.Tab.0.left" timestamp="1582881253426">
+    <state x="83" y="64" key="FileChooserDialogImpl/0.0.1280.770@0.0.1280.770" timestamp="1582975736921" />
+    <state width="1238" height="117" key="GridCell.Tab.0.bottom" timestamp="1583056342985">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="39" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1582881253426" />
-    <state width="1238" height="39" key="GridCell.Tab.0.right" timestamp="1582881253426">
+    <state width="1238" height="117" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1583056342985" />
+    <state width="1238" height="117" key="GridCell.Tab.0.center" timestamp="1583056342985">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="39" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1582881253426" />
-    <state x="144" y="30" key="SettingsEditor" timestamp="1582880656810">
+    <state width="1238" height="117" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1583056342985" />
+    <state width="1238" height="117" key="GridCell.Tab.0.left" timestamp="1583056342985">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="144" y="30" key="SettingsEditor/0.0.1280.770@0.0.1280.770" timestamp="1582880656810" />
-    <state x="336" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1582959609956">
+    <state width="1238" height="117" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1583056342985" />
+    <state width="1238" height="117" key="GridCell.Tab.0.right" timestamp="1583056342985">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="336" y="213" key="com.intellij.ide.util.TipDialog/0.0.1280.770@0.0.1280.770" timestamp="1582959609956" />
+    <state width="1238" height="117" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1583056342985" />
+    <state x="221" y="123" key="IDE.errors.dialog" timestamp="1582992733352">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="221" y="123" key="IDE.errors.dialog/0.0.1280.770@0.0.1280.770" timestamp="1582992733352" />
+    <state x="144" y="30" key="SettingsEditor" timestamp="1582975743077">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="144" y="30" key="SettingsEditor/0.0.1280.770@0.0.1280.770" timestamp="1582975743077" />
+    <state width="1278" height="768" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1583053546690">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1278" height="768" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1280.770@0.0.1280.770" timestamp="1583053546690" />
+    <state x="336" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1582975782475">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="336" y="213" key="com.intellij.ide.util.TipDialog/0.0.1280.770@0.0.1280.770" timestamp="1582975782475" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -458,112 +494,47 @@
       </expression>
     </expressions>
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArquillianSettingsConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>springboot-elk</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="ideajad">
+    <property name="annotate" value="false" />
+    <property name="annotateFully" value="false" />
+    <property name="braces" value="false" />
+    <property name="clear" value="false" />
+    <property name="confirmNavigationTriggeredDecompile" value="true" />
+    <property name="dead" value="true" />
+    <property name="defaultInitializers" value="false" />
+    <property name="dissassemblerOnly" value="false" />
+    <property name="fieldsFirst" value="true" />
+    <property name="fileExtension" value="java" />
+    <property name="fullyQualifiedNames" value="false" />
+    <property name="indentation" value="4" />
+    <property name="intRadix" value="10" />
+    <property name="lineNumbersAsComments" value="true" />
+    <property name="longRadix" value="10" />
+    <property name="maxStringLength" value="64" />
+    <property name="nocast" value="false" />
+    <property name="noclass" value="false" />
+    <property name="nocode" value="false" />
+    <property name="noconv" value="false" />
+    <property name="noctor" value="false" />
+    <property name="nodos" value="false" />
+    <property name="nofd" value="false" />
+    <property name="noinner" value="false" />
+    <property name="nolvt" value="false" />
+    <property name="nonlb" value="false" />
+    <property name="outputDirectory" value="" />
+    <property name="packFields" value="3" />
+    <property name="packImports" value="7" />
+    <property name="prefixNumericalClasses" value="_cls" />
+    <property name="prefixNumericalFields" value="_fld" />
+    <property name="prefixNumericalLocals" value="_lcl" />
+    <property name="prefixNumericalMethods" value="_mth" />
+    <property name="prefixNumericalParameters" value="_prm" />
+    <property name="prefixUnusedExceptions" value="_ex" />
+    <property name="readonly" value="false" />
+    <property name="safe" value="false" />
+    <property name="sort" value="false" />
+    <property name="spaceAfterKeyword" value="false" />
+    <property name="splitStringsAtNewline" value="false" />
+    <property name="useTabs" value="false" />
   </component>
 </project>

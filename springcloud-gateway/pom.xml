@@ -15,11 +15,11 @@
 
     <dependencies>
 
-        <dependency>
+       <!-- <dependency>
             <groupId>com.yss</groupId>
             <artifactId>threshold-starter-gateway</artifactId>
             <version>3.0.0-FinchleyRelease</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>

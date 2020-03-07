@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f57a0f0-3da2-4bbe-8878-d7319d5f8439" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot_multithread/src/main/java/com/springboot/multithread/chapter1_threadknowlegde/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reference-word/~WRL0656.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_multithread/src/main/java/com/springboot/multithread/chapter1_threadknowlegde/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_multithread/src/main/java/com/springboot/multithread/chapter1_threadknowlegde/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_multithread/src/main/java/com/springboot/multithread/chapter1_threadknowlegde/Test4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reference-word/java面试知识点总结.docx" beforeDir="false" afterPath="$PROJECT_DIR$/reference-word/java面试知识点总结.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reference-word/~WRL0003.tmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/reference-word/并发编程技术要点.docx" beforeDir="false" afterPath="$PROJECT_DIR$/reference-word/并发编程技术要点.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multithread/target/classes/com/springboot/multithread/chapter1_threadknowlegde/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multithread/target/classes/com/springboot/multithread/chapter1_threadknowlegde/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multithread/target/classes/com/springboot/multithread/chapter1_threadknowlegde/MesseageQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multithread/target/classes/com/springboot/multithread/chapter1_threadknowlegde/MesseageQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multithread/target/classes/com/springboot/multithread/chapter1_threadknowlegde/Test1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multithread/target/classes/com/springboot/multithread/chapter1_threadknowlegde/Test1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multithread/target/classes/com/springboot/multithread/chapter1_threadknowlegde/Test1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multithread/target/classes/com/springboot/multithread/chapter1_threadknowlegde/Test1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_multithread/target/classes/com/springboot/multithread/chapter1_threadknowlegde/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_multithread/target/classes/com/springboot/multithread/chapter1_threadknowlegde/Test1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,35 +145,9 @@
       <recent name="D:\workspaces\springbootdevAll\springbootdev\test-gateway\src\main\java\com\yss\gateway" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test1">
+  <component name="RunManager" selected="Application.Test4">
     <configuration name="GuardedObjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springboot.multithread.chapter1_threadknowlegde.GuardedObjectTest" />
-      <module name="springboot_multithread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springboot.multithread.chapter1_threadknowlegde.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Profiler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springboot.multithread.chapter1_threadknowlegde.Profiler" />
-      <module name="springboot_multithread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springboot.multithread.chapter1_threadknowlegde.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SysncTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springboot.multithread.chapter1_threadknowlegde.SysncTest" />
       <module name="springboot_multithread" />
       <extension name="coverage">
         <pattern>
@@ -189,8 +172,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitAndNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springboot.multithread.chapter1_threadknowlegde.WaitAndNotify" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springboot.multithread.chapter1_threadknowlegde.Test2" />
+      <module name="springboot_multithread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.multithread.chapter1_threadknowlegde.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springboot.multithread.chapter1_threadknowlegde.Test3" />
+      <module name="springboot_multithread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.multithread.chapter1_threadknowlegde.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springboot.multithread.chapter1_threadknowlegde.Test4" />
       <module name="springboot_multithread" />
       <extension name="coverage">
         <pattern>
@@ -204,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test4" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Test1" />
         <item itemvalue="Application.GuardedObjectTest" />
-        <item itemvalue="Application.WaitAndNotify" />
-        <item itemvalue="Application.SysncTest" />
-        <item itemvalue="Application.Profiler" />
       </list>
     </recent_temporary>
   </component>
@@ -284,6 +293,8 @@
       <workItem from="1583229081991" duration="411000" />
       <workItem from="1583233354390" duration="3843000" />
       <workItem from="1583399113678" duration="4366000" />
+      <workItem from="1583485875083" duration="9291000" />
+      <workItem from="1583590812262" duration="2643000" />
     </task>
     <task id="LOCAL-00001" summary="增加hystrix的使用">
       <created>1574308476984</created>
@@ -390,30 +401,50 @@
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="234" y="47" key="#HTTP_Proxy/0.0.1280.770@0.0.1280.770" timestamp="1582973876700" />
-    <state x="446" y="94" key="#com.intellij.ide.util.MemberChooser" timestamp="1583400641521">
+    <state x="446" y="94" key="#com.intellij.ide.util.MemberChooser" timestamp="1583494297336">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="446" y="94" key="#com.intellij.ide.util.MemberChooser/0.0.1280.770@0.0.1280.770" timestamp="1583400641521" />
+    <state x="446" y="94" key="#com.intellij.ide.util.MemberChooser/0.0.1280.770@0.0.1280.770" timestamp="1583494297336" />
+    <state x="112" y="313" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583590894382">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="112" y="313" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.770@0.0.1280.770" timestamp="1583590894382" />
     <state x="83" y="64" key="FileChooserDialogImpl" timestamp="1583123052033">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="83" y="64" key="FileChooserDialogImpl/0.0.1280.770@0.0.1280.770" timestamp="1583123052033" />
-    <state width="1238" height="119" key="GridCell.Tab.0.bottom" timestamp="1583407168827">
+    <state width="1238" height="247" key="GridCell.Tab.0.bottom" timestamp="1583597223503">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="119" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1583407168827" />
-    <state width="1238" height="119" key="GridCell.Tab.0.center" timestamp="1583407168827">
+    <state width="1238" height="247" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1583597223503" />
+    <state width="1238" height="247" key="GridCell.Tab.0.center" timestamp="1583597223503">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="119" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1583407168827" />
-    <state width="1238" height="119" key="GridCell.Tab.0.left" timestamp="1583407168827">
+    <state width="1238" height="247" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1583597223503" />
+    <state width="1238" height="247" key="GridCell.Tab.0.left" timestamp="1583597223503">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="119" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1583407168827" />
-    <state width="1238" height="119" key="GridCell.Tab.0.right" timestamp="1583407168827">
+    <state width="1238" height="247" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1583597223503" />
+    <state width="1238" height="247" key="GridCell.Tab.0.right" timestamp="1583597223503">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1238" height="119" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1583407168827" />
+    <state width="1238" height="247" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1583597223503" />
+    <state width="1238" height="249" key="GridCell.Tab.1.bottom" timestamp="1583596919221">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1238" height="249" key="GridCell.Tab.1.bottom/0.0.1280.770@0.0.1280.770" timestamp="1583596919221" />
+    <state width="1238" height="249" key="GridCell.Tab.1.center" timestamp="1583596919221">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1238" height="249" key="GridCell.Tab.1.center/0.0.1280.770@0.0.1280.770" timestamp="1583596919221" />
+    <state width="1238" height="249" key="GridCell.Tab.1.left" timestamp="1583596919221">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1238" height="249" key="GridCell.Tab.1.left/0.0.1280.770@0.0.1280.770" timestamp="1583596919221" />
+    <state width="1238" height="249" key="GridCell.Tab.1.right" timestamp="1583596919221">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1238" height="249" key="GridCell.Tab.1.right/0.0.1280.770@0.0.1280.770" timestamp="1583596919221" />
     <state x="221" y="123" key="IDE.errors.dialog" timestamp="1582992733352">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
@@ -426,10 +457,10 @@
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state width="1278" height="768" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1280.770@0.0.1280.770" timestamp="1583053546690" />
-    <state x="336" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1583399135788">
+    <state x="336" y="213" key="com.intellij.ide.util.TipDialog" timestamp="1583590812322">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="336" y="213" key="com.intellij.ide.util.TipDialog/0.0.1280.770@0.0.1280.770" timestamp="1583399135788" />
+    <state x="336" y="213" key="com.intellij.ide.util.TipDialog/0.0.1280.770@0.0.1280.770" timestamp="1583590812322" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -476,20 +507,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>(Resource[])resources.toArray(new Resource[resources.size()])</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>exchange.getBody()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
   <component name="ideajad">
     <property name="annotate" value="false" />

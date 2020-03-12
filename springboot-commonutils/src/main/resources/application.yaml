@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: springboot-commonutils
+server:
+  port: 8097

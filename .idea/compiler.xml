@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -21,6 +22,7 @@
         <module name="business-service" />
         <module name="springboot-configserver" />
         <module name="springboot-annotation" />
+        <module name="springboot-commonutils" />
         <module name="springboot-elk" />
       </profile>
     </annotationProcessing>
@@ -35,6 +37,7 @@
       <module name="springboot-annotation" options="-parameters" />
       <module name="springboot-aop" options="-parameters" />
       <module name="springboot-businessservice" options="-parameters" />
+      <module name="springboot-commonutils" options="-parameters" />
       <module name="springboot-configserver" options="-parameters" />
       <module name="springboot-designpattern" options="-parameters" />
       <module name="springboot-elk" options="-parameters" />

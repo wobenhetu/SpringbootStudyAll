@@ -1,0 +1,75 @@
+package com.springboot.commonutils.utils;
+
+import com.springboot.utils.handler.ConfigHandler;
+import com.springboot.utils.utils.ClassUtils;
+import com.springboot.utils.utils.FileUtils;
+import org.junit.Test;
+
+import java.lang.reflect.Method;
+
+public class ClassUtilsTest
+{
+	@Test
+	public void newInstance()
+	{
+		ClassUtils classa = ClassUtils.newInstance("top.guokaicn.tools.utils.ClassUtils");
+
+		System.out.println(classa);
+	}
+
+	@Test
+	public void testNewInstance()
+	{
+		ClassUtils classa = ClassUtils.newInstance(ClassUtils.class);
+
+		System.out.println(classa);
+	}
+
+	@Test
+	public void testNewInstance1()
+	{
+		String path = this.getClass().getResource("/").getFile();
+
+		ConfigHandler config = ClassUtils.newInstance(ConfigHandler.class,path+"\\config.properties");
+
+		System.out.println(config);
+	}
+
+	@Test
+	public void findMethod()
+	{
+		Method me = ClassUtils.findMethod(ConfigHandler.class,"getString",String.class);
+
+		System.out.println(me);
+	}
+
+
+	@Test
+	public void loadClass()
+	{
+		Class classa = ClassUtils.loadClass("top.guokaicn.tools.utils.ClassUtils");
+
+		System.out.println(classa);
+	}
+
+	@Test
+	public void testLoadClass()
+	{
+		Class classa = ClassUtils.loadClass("top.guokaicn.tools.utils.ClassUtils",false);
+
+		System.out.println(classa);
+	}
+
+	@Test
+	public void getClasses()
+	{
+		ClassUtils a1 = new ClassUtils();
+
+		FileUtils a2 = new FileUtils();
+
+		Class[] result = ClassUtils.getClasses(a1,a2);
+
+		System.out.println(result);
+	}
+
+}

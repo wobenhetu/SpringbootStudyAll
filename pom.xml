@@ -12,7 +12,6 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-
     <groupId>com.springboot.study</groupId>
     <artifactId>springboot</artifactId>
     <packaging>pom</packaging>
@@ -33,6 +32,7 @@
         <module>springboot-kafka</module>
         <module>springboot-designpattern</module>
         <module>springboot-annotation</module>
+        <module>springboot-commonutils</module>
     </modules>
 
 

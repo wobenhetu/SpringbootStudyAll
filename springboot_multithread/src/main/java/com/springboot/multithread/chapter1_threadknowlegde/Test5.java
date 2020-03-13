@@ -12,7 +12,7 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 
 @Slf4j(topic = "c.Test5")
-public class Test5 {    
+public class Test5 {
 
     public static void main(String[] args){
 

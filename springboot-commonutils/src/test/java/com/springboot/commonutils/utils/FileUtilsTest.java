@@ -1,10 +1,14 @@
 package com.springboot.commonutils.utils;
 
 import com.springboot.utils.utils.FileUtils;
+import com.sun.javafx.scene.control.skin.Utils;
 import org.junit.Test;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 
 public class FileUtilsTest
@@ -350,5 +354,39 @@ public class FileUtilsTest
 	public void getSize()
 	{
 		System.out.println(FileUtils.getSize(13131234));
+	}
+
+
+	final String ALPHA = "abcdefghijklmnopqrstuvwxyz";
+
+	/*
+	* 生成多个测试文件数据
+	* */
+	@Test
+	public void testFile(){
+		int length = ALPHA.length();
+		int count = 200;
+		List<String> list = new ArrayList<>(length * count);
+		for (int i = 0; i < length; i++) {
+			char ch = ALPHA.charAt(i);
+			for (int j = 0; j < count; j++) {
+				list.add(String.valueOf(ch));
+			}
+		}
+		Collections.shuffle(list);
+
+		String path = this.getClass().getResource("/").getFile();
+
+		System.out.println(path);
+		boolean folderPath = FileUtils.createFolder(path+"\\test");
+		System.out.println(folderPath);
+		for (int i = 0; i < 26; i++) {
+			try(PrintWriter out = new PrintWriter(new OutputStreamWriter(new FileOutputStream(path+"\\test\\"+(i+1)+".txt")))){
+				String collect = list.subList(i*count,(i+1)*count).stream().collect(Collectors.joining("\n"));
+				out.print(collect);
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			}
+		}
 	}
 }

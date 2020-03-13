@@ -66,5 +66,17 @@
             <artifactId>spring-boot</artifactId>
         </dependency>
         <!-- XMLUtils所使用-结束 -->
+
+        <!--日志框架-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+        </dependency>
+       <!-- 以上日志框架-->
     </dependencies>
 </project>

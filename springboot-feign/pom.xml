@@ -9,8 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springboot_feign</artifactId>
-    <name>springboot-feign</name>
+    <artifactId>springboot-feign</artifactId>
+
+
     <dependencies>
 
         <dependency>
@@ -53,6 +54,4 @@
             <version>1.2.41</version>
         </dependency>
     </dependencies>
-
-
 </project>

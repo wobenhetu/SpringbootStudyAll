@@ -17,7 +17,6 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>springboot_feign</module>
         <module>springboot_redis</module>
         <module>springboot_mybatis</module>
         <module>springboot_eureka</module>
@@ -27,12 +26,13 @@
         <module>springcloud-gateway</module>
         <module>springcloud-hystrix-dashboard</module>
         <module>springboot-aop</module>
-        <module>springboot-elk</module>
         <module>springboot-rabbitmq</module>
         <module>springboot-kafka</module>
         <module>springboot-designpattern</module>
         <module>springboot-annotation</module>
         <module>springboot-commonutils</module>
+        <module>springboot-ELK</module>
+        <module>springboot-feign</module>
     </modules>
 
 
@@ -73,10 +73,20 @@
 
     <build>
         <plugins>
-           <!-- <plugin>
+            <!--<plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>-->
+
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <fork>true</fork>
+                    <executable>C:\Program Files (x86)\Java\jdk1.8.0_191\bin\javac.exe</executable>
+                </configuration>
+            </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>

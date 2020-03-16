@@ -1,0 +1,7 @@
+
+spring:
+  application:
+    name:  springboot-elk
+
+server:
+  port: 8098

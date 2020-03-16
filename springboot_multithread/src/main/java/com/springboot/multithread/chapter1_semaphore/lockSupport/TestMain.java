@@ -1,7 +1,5 @@
 package com.springboot.multithread.chapter1_semaphore.lockSupport;
 
-import sun.java2d.cmm.lcms.LcmsServiceProvider;
-
 import java.util.concurrent.locks.LockSupport;
 
 public class TestMain {

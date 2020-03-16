@@ -13,31 +13,30 @@ import java.util.concurrent.*;
 @Slf4j(topic = "c.Top100")
 public class Top100 {
     public static Map<String, Integer> hashMap = new ConcurrentHashMap<String, Integer>();
-    public static CountDownLatch countDownLatch = new CountDownLatch(7);
-
     public static void main(String[] args) {
 
         // TODO Auto-generated method stub
         try {
             //构建线程池
-            ExecutorService service = Executors.newFixedThreadPool(7);
+            ExecutorService service = Executors.newFixedThreadPool(26);
+            CountDownLatch c = new CountDownLatch(26);
+
             //多个文本文件的根目录
             //这个目录是target下面的
-            ///String path = "D:\\workspaces\\SpringbootStudyAll\\springboot-commonutils\\target\\test-classes\\test";
-            //File[] fileList = new File(path).listFiles();
+            String path = "D:\\workspaces\\SpringbootStudyAll\\springboot-commonutils\\target\\test-classes\\test";
+            File[] fileList = new File(path).listFiles();
 
             //这里是resourcces目录下面
-            File files = ResourceUtils.getFile("classpath:testfile/");
-            File[] fileList = files.listFiles();
+//            File files = ResourceUtils.getFile("classpath:testfile/");
+//            File[] fileList = files.listFiles();
 
             for (File file : fileList) {
                 //遍历文件，使用子线程读取
-                MyFileUtilTask f = new MyFileUtilTask();
-                f.fileName = file.getPath();
+                MyFileUtilTask f = new MyFileUtilTask(file.getPath(),c);
                 service.execute(f);
 
             }
-            countDownLatch.await();
+            c.await();
             log.debug("主线程开始执行");
             //获取频率最高的100个单词
             getTop100();
@@ -165,8 +164,15 @@ public class Top100 {
 
     //实现Runnable的工具类
     static class MyFileUtilTask implements Runnable {
-        public String fileName;
 
+        private String fileName;
+
+        private CountDownLatch countDownLatch;
+
+        public MyFileUtilTask(String fileName, CountDownLatch countDownLatch) {
+            this.fileName = fileName;
+            this.countDownLatch = countDownLatch;
+        }
         @Override
         public void run() {
             // TODO Auto-generated method stub
@@ -179,7 +185,6 @@ public class Top100 {
                 String line = "";
                 String[] arrs = null;
                 while ((line = br.readLine()) != null) {
-                    // System.out.println(line);
                     arrs = line.split(" ");
                     for (String string : arrs) {
                         string = prePro(string);
@@ -196,6 +201,7 @@ public class Top100 {
                         }
                     }
                 }
+                this.countDownLatch.countDown();
             } catch (FileNotFoundException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
@@ -213,12 +219,7 @@ public class Top100 {
                     e.printStackTrace();
                 }
             }
-            try {
-                TimeUnit.SECONDS.sleep(new Random().nextInt(4));
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            countDownLatch.countDown();
+
         }
 
         //由于测试文件是英文小说原著，里面包含了大量的符号，这里进行预处理

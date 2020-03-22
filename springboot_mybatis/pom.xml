@@ -53,6 +53,12 @@
             <version>1.2.5</version>
         </dependency>
 
+        <!--引入druid数据库连接池-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.1.21</version>
+        </dependency>
     </dependencies>
 
     <!--引入mybatis的生成插件-->

@@ -33,6 +33,7 @@
         <module>springboot-commonutils</module>
         <module>springboot-ELK</module>
         <module>springboot-feign</module>
+        <module>springboot-java</module>
     </modules>
 
 

@@ -86,4 +86,13 @@
       sex = #{sex,jdbcType=VARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
+
+
+  <!--批量插入-->
+  <insert id="addUser" parameterType="java.util.List" >
+    insert into user(id, name, age, sex) values
+    <foreach collection="list" item="item" index="index" separator=",">
+      (#{item.id},#{item.name},#{item.age},#{item.sex})
+    </foreach>
+  </insert>
 </mapper>

@@ -20,4 +20,10 @@ public interface MyUserMapper {
     int updateByPrimaryKeySelective(MyUser record);
 
     int updateByPrimaryKey(MyUser record);
+
+    /*
+    * 批量插入
+    * */
+    int addUser(List<MyUser> myUserList);
+
 }

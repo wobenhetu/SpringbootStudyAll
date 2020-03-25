@@ -75,4 +75,26 @@ public class JdbcController {
         return "success";
     }
 
+
+    @RequestMapping("/insertlist")
+    public String insertUserList(){
+
+        List<MyUser> users = new ArrayList<>();
+        for (int i = 6; i < 100; i++) {
+            MyUser myUser = new MyUser();
+            myUser.setId(Long.parseLong(i+8+""));
+            myUser.setName("wulili"+i);
+            if(i%2==0){
+                myUser.setAge("22");
+                myUser.setSex("men");
+            }else {
+                myUser.setAge("23");
+                myUser.setSex("women");
+            }
+            users.add(myUser);
+        }
+
+        userMapper.addUser(users);
+        return "success";
+    }
 }

@@ -22,9 +22,9 @@ CREATE TABLE IF NOT EXISTS `user` (
   `sex` varchar(31) NOT NULL,
    PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC;
-
-INSERT INTO user(id, name,age,sex) VALUES(1, 'lili','24','women') ON DUPLICATE KEY UPDATE id = id;
-INSERT INTO user(id, name,age,sex) VALUES(2, 'dddd','24','women') ON DUPLICATE KEY UPDATE id = id;
-INSERT INTO user(id, name,age,sex) VALUES(3, 'vvvv','24','men')ON DUPLICATE KEY UPDATE id = id;
-INSERT INTO user(id, name,age,sex) VALUES(4, 'bbbfg','24','women')ON DUPLICATE KEY UPDATE id = id;
-INSERT INTO user(id, name,age,sex) VALUES(5, 'yyyyy','24','women')ON DUPLICATE KEY UPDATE id = id;
+#
+# INSERT INTO user(id, name,age,sex) VALUES(1, 'lili','24','women') ON DUPLICATE KEY UPDATE id = id;
+# INSERT INTO user(id, name,age,sex) VALUES(2, 'dddd','24','women') ON DUPLICATE KEY UPDATE id = id;
+# INSERT INTO user(id, name,age,sex) VALUES(3, 'vvvv','24','men')ON DUPLICATE KEY UPDATE id = id;
+# INSERT INTO user(id, name,age,sex) VALUES(4, 'bbbfg','24','women')ON DUPLICATE KEY UPDATE id = id;
+# INSERT INTO user(id, name,age,sex) VALUES(5, 'yyyyy','24','women')ON DUPLICATE KEY UPDATE id = id;

@@ -14,7 +14,7 @@ public class Test6 {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                log.debug("获取结果");
+                log.debug("获取结果......");
                 List<String> lists = (List<String>)guardedObject.get();
                 log.debug("获取结果为"+ lists.size());
             }

@@ -34,6 +34,7 @@
         <module>springboot-ELK</module>
         <module>springboot-feign</module>
         <module>springboot-java</module>
+        <module>springboot-onlineExecutor</module>
     </modules>
 
 

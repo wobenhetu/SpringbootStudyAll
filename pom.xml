@@ -35,6 +35,7 @@
         <module>springboot-feign</module>
         <module>springboot-java</module>
         <module>springboot-onlineExecutor</module>
+        <module>springboot-easypoi</module>
     </modules>
 
 
